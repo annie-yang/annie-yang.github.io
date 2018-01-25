@@ -1,0 +1,67 @@
+.bg-light{
+	background-color:#ffe1e6 !important;
+}
+
+h1{
+	padding: 3% 0 0 0;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.slogan{
+	font-family: 'Pacifico', cursive;
+	font-size: 1.5em;
+	text-align: center;
+	color: #6c5ce7;
+}
+
+.workLink{
+	color: #6c5ce7;
+}
+
+.workLink:hover{
+	color: #a29bfe;
+}
+
+p, .experience{
+	font-family: 'Quicksand', cursive;
+	font-size: 1.2em;
+}
+
+h2{
+	text-decoration: underline;
+	font-family: 'Quicksand', cursive;
+	font-size: 1.5em;
+}
+
+.download_btn{
+	border-color: #6c5ce7;
+	background-color: #6c5ce7;
+	border-color: #6c5ce7;
+	color: white;
+}
+
+.download_btn:hover{
+	border-color: #a29bfe;
+	background-color: #a29bfe;
+	border-color: #a29bfe;
+	color: white;
+}
+
+.spacing{
+	padding: 3% 0 0 0;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	p, .experience{
+		font-family: 'Quicksand', cursive;
+		font-size: 1em;
+	}
+
+	h2{
+		text-decoration: underline;
+		font-family: 'Quicksand', cursive;
+		font-size: 1em;
+	}
+}

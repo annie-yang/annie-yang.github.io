@@ -1,0 +1,276 @@
+.bg-light{
+	background-color:#ffe1e6 !important;
+}
+
+/* Delightful Natural Food */
+h1{
+	padding: 3% 0 0 0;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+a.workLink, h3{
+	font-family: 'Quicksand', sans-serif;
+	color: #6c5ce7;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+a.workLink:hover{
+	color: #a29bfe;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.heading{
+	font-family: 'Pacifico', cursive !important;
+	font-size: 4em;
+	text-align: center;
+	color: #4A4A4A;
+}
+
+.imageCaptions{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	color: #4A4A4A;
+}
+
+.imgZoom {
+	cursor: zoom-in;
+}
+
+h3{
+	font-family: 'Pacifico', cursive !important;
+	text-decoration: underline;
+}
+
+h2{
+	font-family: 'Pacifico', cursive !important;
+	text-decoration: underline;
+	color: #4A4A4A;
+	font-size: 2.5em !important;
+}
+
+.userTesting{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+}
+
+.imac{
+	width:700px;
+	height:522px;
+	padding-top: 25px;
+}
+
+.delightfulMac{
+	padding: 0% 0% 0% 15% !important;
+}
+
+.delightfulPhone{
+	padding: 7% 0% 0% 5% !important;
+}
+
+.iphone, .iphone_front{
+	width:280px;
+	height:522px;
+}
+
+.screenshots{
+	width:550px;
+	height:400px;
+	padding-bottom: 25px;
+}
+
+.desc, .lists{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	color: #4A4A4A;
+}
+
+.aboutTitles{
+	color: black;
+	font-weight: bold;
+}
+
+.bullets{
+	color: #4A4A4A;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+}
+
+.bulletSection{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	color: #4A4A4A;
+	margin:0%;
+	padding: 7% 0 0 0;
+}
+
+.beforeBullets{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	color: #4A4A4A;
+}
+
+.toolongLink{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	color: #6c5ce7;
+}
+
+.toolongLink:hover{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	color: #a29bfe;
+}
+
+.card-body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	color: #4A4A4A;
+}
+
+.contactSection{
+	background-color: #F86D7E;
+	padding: 0 0 1% 0;
+	margin: 3% 0 0 0;
+}
+
+.contactHeading{
+	font-family: 'Pacifico', cursive;
+	font-size: 3.2em;
+	color:white;
+	padding: 0%;
+	margin: 0%;
+}
+
+p.slogan{
+	padding: 2% 0 2% 0;
+	font-size: 1.5em;
+}
+
+.moreProjectImages:hover{
+	opacity: 0.6;
+}
+
+.moreProjectImages{
+	height: 100%;
+	width: 100%;
+}
+
+/* PlusOne Social */
+.iphone_front{
+	width: 50%;
+	height: 100%;
+}
+
+/* Shapr */
+.shapr_iphone{
+	width: 20%;
+	height: 70%;
+	text-align: center;
+}
+
+.reviews{
+	width:100%;
+}
+
+.screenshots{
+	width: 90%;
+	height: 100%;
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	/* delightful*/
+	.imac{
+		height:100%;
+		width: 90%;
+	}
+
+	.delightfulPhone{
+		margin: 0 0 0 32%;
+	}
+
+	.workLink{
+		font-size: 0.8em !important;
+	}
+
+	/* plusone */
+	.iphone_front{
+		height:100%;
+		width: 90%;
+	}
+
+	/* staffany */
+	.staffany_imac{
+		height:80%;
+		width: 85%;
+	}
+
+	/* shapr */
+	.shapr_iphone{
+		height:80%;
+		width: 85%;
+		margin: 0 0 0 5%;
+	}
+
+	video{
+		height:55%;
+		width: 55%;
+		margin: 0 0 0 25%;
+	}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+	/* delightful*/
+	.imac{
+		height:100%;
+		width: 145%;
+		margin: 0 0 0 25%;
+	}
+
+	.delightfulPhone{
+		margin: 0 0 0 32%;
+	}
+
+	.workLink{
+		font-size: 0.8em !important;
+	}
+
+	/* staffany */
+	.staffany_imac{
+		height:50%;
+		width: 55%;
+	}
+
+	/* shapr */
+	.shapr_iphone{
+		height:80%;
+		width: 85%;
+		margin: 0 0 0 20%;
+	}
+
+	video{
+		height:55%;
+		width: 55%;
+		margin: 0 0 0 25%;
+	}
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 2560px) {
+	/* staffany */
+	.staffany_imac{
+		height:50%;
+		width: 55%;
+	}
+}
+

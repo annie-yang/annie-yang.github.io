@@ -1,0 +1,368 @@
+.bg-light{
+	background-color:#ffe1e6 !important;
+}
+
+/* MAST COVER */
+.masthead {
+	min-height: 30rem;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-top: 6.2rem;
+	background: #ffe1e6;
+}
+
+.bio_heading{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	padding: 0 0 2% 0;
+	color:#3f3f3f;
+}
+
+.bio_subTitle{
+	text-align: center;
+	font-family: 'Quicksand', cursive;
+	font-size: 1.2em;
+	color:#3f3f3f;
+}
+
+.bio_para{
+	text-align: center;
+	font-family: 'Quicksand', cursive;
+	font-size: 1.3em;
+	color:#3f3f3f;
+}
+
+.tooltip_link{
+	border-bottom: 1px dotted #000;
+	display: inline;
+}
+
+.name{
+	display: inline-block;
+}
+
+.btn{
+	margin: 0 0 5% 0;
+}
+
+.avatar{
+	width:15%;
+	height:0%;
+}
+
+.fa-github, .fa-linkedin-in, .fa-instagram, .fa-envelope{
+	font-size:2.3em;
+	color:#3f3f3f;
+	margin: 0 3% 0 0;
+}
+
+a.social_icons:hover{
+	opacity: 0.2;
+}
+
+.experience_btn{
+	border-color: #6c5ce7;
+	background-color: #6c5ce7;
+	border-color: #6c5ce7;
+	color: white;
+}
+
+.experience_btn:hover{
+	border-color: #a29bfe;
+	background-color: #a29bfe;
+	border-color: #a29bfe;
+	color: white;
+}
+
+.project_btn{
+	background-color: #ffe1e6;
+	border-color: #3f3f3f;
+	color: #3f3f3f;
+}
+
+.project_btn:hover{
+	background-color: #ffe1e6;
+	border-color: #6c5ce7;
+	color: #6c5ce7;
+}
+
+/* WORK */
+.work_section{
+	text-align: center;
+	padding: 5% 0 0 0;
+}
+
+.plusOne_img, .shapr_img{
+	width:30%;
+	height: 55%;
+	margin: 5% 0 0 35%;
+}
+
+.staffany_img, .dnf_img{
+	width:70%;
+	height: 50%;
+	margin: 5% 0 0 15%;
+}
+
+.delightful_title{
+	padding: 5% 0 0 0;
+}
+
+.delightful_card_desc{
+	padding: 1% 0 0 0;
+}
+
+.staffany_title{
+	padding: 7% 0 0 0;
+}
+
+.card_desc, .card-title{
+	font-family: 'Quicksand', cursive;
+}
+
+.row2{
+	padding: 5% 0 0 0;
+}
+
+.go_invisible{
+	visibility: hidden;
+}
+
+/* QUOTE */
+.quote_background{
+	margin: 5% 0 0 0;
+	background-color: #ffe1e6;
+}
+
+.quote_card{
+	border:none;
+}
+
+.quote{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 3% 0 0 0;
+}
+
+.author{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* ABOUT */
+.about_section{
+	padding: 5% 0 0 0;
+}
+
+.about_bio{
+	font-family: 'Quicksand', cursive;
+	font-size: 1.2em;
+}
+
+.inspiration_subtitle{
+	text-align: center;
+}
+
+.inspiration_title{
+	font-family: 'Quicksand', cursive;
+	font-weight: 1000;
+	font-size: 1.4em;
+}
+
+a.camera_link{
+	color: #6c5ce7;
+}
+
+a.camera_link:hover{
+	color: #a29bfe;
+}
+
+.camera_div{
+	top:2px;
+	padding: 0%;
+}
+
+img.camera{
+	margin: 0 0 0 36%;
+	width: 28%;
+	height: 45%;
+}
+
+.coffee_div{
+	top:-12px;
+	padding: 0%;
+}
+
+img.coffee{
+	margin: 0 0 0 40%;
+	width:20%;
+	height: 60%;
+}
+
+img.travel{
+	margin: 0 0 0 35%;
+	width: 30%;
+	height: 40%;
+}
+
+.travel_div{
+	top:10px;
+	padding: 0%;
+}
+
+img.music{
+	margin: 0 0 0 35%;
+	width: 30%;
+	height: 40%;
+}
+
+.music_div{
+	top: 13px;
+	padding: 0%;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.masthead{
+		padding: 0%;
+	}
+
+	.bio_heading{
+		font-size: 2.5em;
+		margin: 10% 0 0 0;
+	}
+
+	.bio_subTitle{
+		font-size: 1em;
+	}
+
+	.bio_para, p.about_bio{
+		font-size: 1.1em;
+	}
+
+	.icons{
+		font-size: 12px;
+	}
+
+	.name{
+		padding: 0 0 4% 0;
+	}
+
+	.avatar{
+		width:40%;
+		height:50%;
+	}
+
+	.card-columns, .row{
+		width:100%;
+		height: 100%;
+		margin: 0 0 0 0%;
+	}
+
+	.staffany_img, .dnf_img{
+		margin: 0 0 0 15%;
+	}
+
+	.shapr_img, .plusOne_img{
+		margin: 0 0 0 32%;
+	}
+
+	.go_invisible{
+		display: none;
+	}
+
+	.inspiration_img{
+		display:none;
+	}
+	.dnf_card, .plusOne_card{
+		margin: 0 0 7% 0;
+	}
+	.staffany_card{
+		margin: 0 0 3% 0;
+	}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+	.avatar{
+		width: 20%;
+		height: 0%;
+	}
+
+	.bio_heading{
+		font-size: 2.5em;
+	}
+
+	.dnf_img, .staffany_img{
+		margin: 5% 0 0 28%;
+		width:45%;
+		height: 25%;
+	}
+
+	.plusOne_img, .shapr_img{
+		margin: 5% 0 0 40%;
+		width: 20%;
+		height: 25%;
+	}
+
+	.dnf_card, .plusOne_card{
+		margin: 0 0 5% 0;
+	}
+	.staffany_card{
+		margin: 0%;
+	}
+
+	img.camera{
+		margin: 0 0 0 27%;
+		width: 50%;
+		height: 40%;
+	}
+
+	img.coffee{
+		margin: 0 0 0 30%;
+		width: 40%;
+		height: 50%;
+	}
+
+	.travel_div{
+		top:20px;
+	}
+
+	img.travel{
+		margin: 0 0 0 25%;
+		width: 50%;
+		height: 30%;
+	}
+
+	.music_div{
+		top:20px;
+	}
+
+	img.music{
+		margin: 0 0 0 23%;
+		width: 50%;
+		height: 30%;
+	}
+
+	.go_invisible{
+		display: none;
+	}
+	.inspiration_text{
+		color:transparent;
+	}
+	span{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 2560px) {
+	span{
+		display:none;
+	}
+	.go_invisible{
+		display: none;
+	}
+	.inspiration_text{
+		color:transparent;
+	}
+}
