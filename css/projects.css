@@ -2,7 +2,22 @@
 	background-color:#ffe1e6 !important;
 }
 
-/* Delightful Natural Food */
+/**************** Delightful Natural Food *****************/
+.unactive_link{
+	cursor:not-allowed;
+}
+
+.tooltip_link{
+	border-bottom: 1px dotted #000;
+	display: inline;
+}
+
+.unactive_link:hover{
+	cursor:not-allowed;
+	color:grey;
+	text-decoration:line-through;
+}
+
 h1{
 	padding: 3% 0 0 0;
 	font-family: 'Pacifico', cursive;
@@ -42,6 +57,36 @@ a.workLink:hover{
 	cursor: zoom-in;
 }
 
+.personas_img{
+	width: 70%;
+	height: 80%;
+}
+
+.user_flow{
+	width: 80%;
+	height: 100%;
+}
+
+.user_flow2{
+	width: 70%;
+	height: 50%;
+}
+
+.red_routes{
+	width: 70%;
+	height: 90%;
+}
+
+.compAnalysis_img{
+	width: 100%;
+	height: 100%;
+}
+
+.compAnalysis_img2{
+	width: 60%;
+	height: 70%;
+}
+
 h3{
 	font-family: 'Pacifico', cursive !important;
 	text-decoration: underline;
@@ -60,36 +105,79 @@ h2{
 }
 
 .imac{
-	width:700px;
-	height:522px;
-	padding-top: 25px;
+	width:55%;
+	height:80%;
+	margin: 5% 0 0 75%;
 }
 
-.delightfulMac{
-	padding: 0% 0% 0% 15% !important;
+.wireframes_img{
+	width:60%;
+	height:100%;
 }
 
-.delightfulPhone{
-	padding: 7% 0% 0% 5% !important;
+.wireframes_img2{
+	width:90%;
+	height:90%;
 }
 
-.iphone, .iphone_front{
-	width:280px;
-	height:522px;
+.mockup1{
+	width:35%;
+	height:100%;
 }
 
-.screenshots{
-	width:550px;
-	height:400px;
+.mockup2{
+	width:80%;
+	height:50%;
+}
+
+.mockup3{
+	width:90%;
+	height:100%;
+}
+
+.text_styles_img{
+	width:80%;
+	height:90%;
+}
+
+.text_styles_img2{
+	width:100%;
+	height:30%;
+}
+
+.color_img{
+	width:60%;
+	height:30%;
+}
+
+img.iphone_front{
+	width:18%;
+	height:65%;
+	margin: 15% 0 0 0%;
+}
+
+.iphone{
+	width:10%;
+	height:10%;
+}
+
+.iphone2{
+	width:25%;
+	height:25%;
+}
+
+img.screenshots{
+	width:60%;
+	height:70%;
 	padding-bottom: 25px;
 }
 
 .desc, .lists{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.2em;
-	padding-bottom: 25px;
-	padding-top: 25px;
+	padding-top: 3%;
 	color: #4A4A4A;
+	margin: 0%;
 }
 
 .aboutTitles{
@@ -113,7 +201,7 @@ h2{
 
 .beforeBullets{
 	font-family: 'Quicksand', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	padding-bottom: 25px;
 	padding-top: 25px;
 	color: #4A4A4A;
@@ -165,13 +253,13 @@ p.slogan{
 	width: 100%;
 }
 
-/* PlusOne Social */
+/*************** PlusOne Social ****************/
 .iphone_front{
 	width: 50%;
 	height: 100%;
 }
 
-/* Shapr */
+/**************** Shapr ****************/
 .shapr_iphone{
 	width: 20%;
 	height: 70%;
@@ -192,16 +280,32 @@ p.slogan{
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 	/* delightful*/
 	.imac{
-		height:100%;
-		width: 90%;
+		height:80%;
+		width: 80%;
+		margin: 9%;
 	}
 
-	.delightfulPhone{
-		margin: 0 0 0 32%;
+	img.iphone_front{
+		height:90%;
+		width: 35%;
+		margin: 0 0 0 31%;
+	}
+
+	h1, h2{
+		font-size: 2em !important;
+	}
+
+	.desc, ul.lists, .bulletSection, li.bullets, .card-body, .mb-0, .userTesting{
+		font-size: 1em;
 	}
 
 	.workLink{
 		font-size: 0.8em !important;
+	}
+
+	.mockup2, .text_styles_img2, .color_img{
+		height:90%;
+		width: 90%;
 	}
 
 	/* plusone */
@@ -223,19 +327,21 @@ p.slogan{
 		margin: 0 0 0 5%;
 	}
 
+/*
 	video{
 		height:55%;
 		width: 55%;
 		margin: 0 0 0 25%;
 	}
+*/
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
 	/* delightful*/
 	.imac{
 		height:100%;
-		width: 145%;
-		margin: 0 0 0 25%;
+		width: 100%;
+		margin: 0 0 0 55%;
 	}
 
 	.delightfulPhone{
@@ -244,6 +350,30 @@ p.slogan{
 
 	.workLink{
 		font-size: 0.8em !important;
+	}
+
+	img.iphone_front{
+		height:90%;
+		width: 50%;
+		margin: 5% 0 0 9%;
+	}
+
+	h1, h2{
+		font-size: 2em !important;
+	}
+
+	.desc, ul.lists, .bulletSection, li.bullets, .card-body, .mb-0, .userTesting{
+		font-size: 1em;
+	}
+
+	.mockup2, .mockup3, .text_styles_img2, .color_img{
+		height:80%;
+		width: 50%;
+	}
+
+	.text_styles_img{
+		height:80%;
+		width: 50%;
 	}
 
 	/* staffany */
