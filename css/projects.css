@@ -2,6 +2,74 @@
 	background-color:#ffe1e6 !important;
 }
 
+.footer_text{
+	color:white;
+	text-align: center;
+	margin: 5% 0 0 0;
+}
+
+.desc, .lists{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	padding-top: 3%;
+	color: #4A4A4A;
+	margin: 0%;
+}
+
+span.aboutTitles{
+	color: black;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+}
+
+.tools_title{
+	color: black;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.bullets{
+	color: #4A4A4A;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+}
+
+.bulletSection{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	color: #4A4A4A;
+	margin:0%;
+	padding: 7% 0 0 0;
+}
+
+.beforeBullets{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	color: #4A4A4A;
+}
+
+.toolongLink{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	color: #6c5ce7;
+}
+
+.toolongLink:hover{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	color: #a29bfe;
+}
+
+.card-body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	color: #4A4A4A;
+}
+
 /**************** Delightful Natural Food *****************/
 .unactive_link{
 	cursor:not-allowed;
@@ -172,73 +240,6 @@ img.screenshots{
 	padding-bottom: 25px;
 }
 
-.desc, .lists{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
-	padding-top: 3%;
-	color: #4A4A4A;
-	margin: 0%;
-}
-
-.aboutTitles{
-	color: black;
-	font-weight: bold;
-}
-
-.bullets{
-	color: #4A4A4A;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
-}
-
-.bulletSection{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.5em;
-	color: #4A4A4A;
-	margin:0%;
-	padding: 7% 0 0 0;
-}
-
-.beforeBullets{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
-	padding-bottom: 25px;
-	padding-top: 25px;
-	color: #4A4A4A;
-}
-
-.toolongLink{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
-	color: #6c5ce7;
-}
-
-.toolongLink:hover{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
-	color: #a29bfe;
-}
-
-.card-body{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
-	color: #4A4A4A;
-}
-
-.contactSection{
-	background-color: #F86D7E;
-	padding: 0 0 1% 0;
-	margin: 3% 0 0 0;
-}
-
-.contactHeading{
-	font-family: 'Pacifico', cursive;
-	font-size: 3.2em;
-	color:white;
-	padding: 0%;
-	margin: 0%;
-}
-
 p.slogan{
 	padding: 2% 0 2% 0;
 	font-size: 1.5em;
@@ -254,9 +255,10 @@ p.slogan{
 }
 
 /*************** PlusOne Social ****************/
-.iphone_front{
-	width: 50%;
-	height: 100%;
+.plusOne_front{
+	width: 15%;
+	height: 95%;
+	margin: 0 0 0 42%;
 }
 
 /**************** Shapr ****************/
@@ -279,6 +281,13 @@ p.slogan{
 /* MEDIA QUERIES */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 	/* delightful*/
+	.tools_title{
+		color: black;
+		font-size: 1em;
+		font-weight: bold;
+		font-family: 'Quicksand', sans-serif;
+	}
+
 	.imac{
 		height:80%;
 		width: 80%;
@@ -309,9 +318,10 @@ p.slogan{
 	}
 
 	/* plusone */
-	.iphone_front{
-		height:100%;
-		width: 90%;
+	.plusOne_front{
+		height:90%;
+		width: 40%;
+		margin: 0 0 0 31%;
 	}
 
 	/* staffany */
@@ -338,6 +348,13 @@ p.slogan{
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
 	/* delightful*/
+	.tools_title{
+		color: black;
+		font-size: 0.9em;
+		font-weight: bold;
+		font-family: 'Quicksand', sans-serif;
+	}
+
 	.imac{
 		height:100%;
 		width: 100%;
@@ -374,6 +391,18 @@ p.slogan{
 	.text_styles_img{
 		height:80%;
 		width: 50%;
+	}
+
+	/* plusOne */
+	.plusOne_front{
+		height:100%;
+		width: 20%;
+		margin: 0 0 0 40%;
+	}
+
+	.styles{
+		height:100%;
+		width: 10%;
 	}
 
 	/* staffany */
