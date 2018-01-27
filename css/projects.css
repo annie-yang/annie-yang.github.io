@@ -173,9 +173,9 @@ h2{
 }
 
 .imac{
-	width:55%;
-	height:80%;
-	margin: 5% 0 0 75%;
+	width:75%;
+	height:90%;
+	margin: 5% 0 0 65%;
 }
 
 .wireframes_img{
@@ -219,9 +219,9 @@ h2{
 }
 
 img.iphone_front{
-	width:18%;
-	height:65%;
-	margin: 15% 0 0 0%;
+	width:25%;
+	height:76%;
+	margin: 16% 0 0 0%;
 }
 
 .iphone{
@@ -259,6 +259,26 @@ p.slogan{
 	width: 15%;
 	height: 95%;
 	margin: 0 0 0 42%;
+}
+
+/*************** Staffany ****************/
+img.staffany_imac{
+	width:35%;
+}
+
+img.logo{
+	width: 40%;
+	height: 90%;
+}
+
+img.staffany_styles{
+	width: 100%;
+	height: 100%;
+}
+
+img.staffany_colors{
+	width: 100%;
+	height: 50%;
 }
 
 /**************** Shapr ****************/
@@ -324,10 +344,27 @@ p.slogan{
 		margin: 0 0 0 31%;
 	}
 
+	h1, h2{
+		font-size: 2em;
+	}
+
 	/* staffany */
-	.staffany_imac{
-		height:80%;
-		width: 85%;
+	img.staffany_imac{
+		height:40%;
+		width: 70%;
+	}
+
+	img.logo{
+		width: 100%;
+		height: 100%;
+	}
+
+	img.staffany_colors{
+		width: 100%;
+		height: 100%;
+	}
+	h1, h2{
+		font-size: 2em;
 	}
 
 	/* shapr */
@@ -335,6 +372,9 @@ p.slogan{
 		height:80%;
 		width: 85%;
 		margin: 0 0 0 5%;
+	}
+	h1, h2{
+		font-size: 2em;
 	}
 
 /*
@@ -406,9 +446,24 @@ p.slogan{
 	}
 
 	/* staffany */
-	.staffany_imac{
-		height:50%;
-		width: 55%;
+	img.staffany_imac{
+		height:40%;
+		width: 50%;
+	}
+
+	img.logo{
+		width: 60%;
+		height: 90%;
+	}
+
+	img.staffany_colors{
+		width: 60%;
+		height: 90%;
+	}
+
+	img.staffany_styles{
+		width: 50%;
+		height: 100%;
 	}
 
 	/* shapr */
