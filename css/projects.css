@@ -289,12 +289,22 @@ img.staffany_colors{
 }
 
 .reviews{
-	width:100%;
+	width:50%;
 }
 
-.screenshots{
-	width: 90%;
+img.shapr_screenshots{
+	width: 50%;
 	height: 100%;
+}
+
+.planImages{
+	width: 80%;
+	height: 100%;
+}
+
+.storyboard{
+	width: 40%;
+	height: 90%;
 }
 
 

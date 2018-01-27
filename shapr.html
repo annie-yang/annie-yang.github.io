@@ -88,14 +88,26 @@
 			<h3><a class="workLink" href="https://app.staffany.com/login" target="_blank">https://app.staffany.com</a></h3>
 		</header>
 
-		<body>
+		<!-- ENLARGE IMAGES -->
+		<div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					</div>
+					<div class="modal-body">
+						<img class="enlargeImageModalSource" style="width: 100%;">
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="container">
 			<div class="row headingImg">
 				<div class="col-lg-12 col-md-6 col-sm-12 shapr_iphone">
 					<img class="shapr_iphone" src="images/design/Shapr_redesign/iphone/iphone1.png">
 				</div>
 			</div>
-
 
 			<div id="accordion" role="tablist">
 				<div class="card">
@@ -119,10 +131,10 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-8 col-sm-6">
 					<p class="desc">
-						<span class="aboutTitles">Company:</span> Shapr is an iOS &amp; Android app that allows users to expand their professional networks. Their users are ranged from teens to middle-aged users from all different genders.
+						<span class="aboutTitles">Company:</span> Shapr is an iOS &amp; Android app that allows users to expand their professional networks.
 						<br/><br/>
 
-						<span class="aboutTitles">The Problem:</span> I noticed users are complaining a lot about the user experience when using the app, especially the chat messages.
+						<span class="aboutTitles">The Problem:</span> Users were complaining a lot about the user experience, such as the chat messages.
 
 					<ul class="lists"><b>Diving in deeper:</b>
 						<li>app takes awhile to load due to trying to find user's current location</li>
@@ -130,378 +142,361 @@
 						<li>redesigning onboarding</li>
 					</ul>
 					</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<p class="bulletSection">
-					<span class="aboutTitles">Role:</span>
-				<ul>
-					<li class="bullets">UX/UI Developer</li>
-				</ul>
-				<span class="tools_title">Tools:</span>
-				<ul>
-					<li class="bullets">Sketch</li>
-					<li class="bullets">Xtensio</li>
-					<li class="bullets">Balsamiq Mockups 3</li>
-					<li class="bullets">Marvel</li>
-					<li class="bullets">Zeplin</li>
-				</ul>
-				</p>
-		</div>
-		</div>
-	</div>
-
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<h2 style="text-align: left;">Findings</h2>
-			<p class="desc">
-				<span style="color: black;"> - User Research - </span><br/>
-				I went to the app store and looked at the low reviews to see what the consumer's opinions/troubles were when using the app. Based on the reviews, a lot of people had trouble loading the app or getting errors. A few people suggested not adding the timer to the app due to not even being able to find one user to connect with or having the users occur more frequently. (In Shapr, daily, a user gets a certain amount of batches of users (~19 users) and then have to wait 24 hours  (the timer) before connecting with the next batch of users).
-			</p>
-		</div>
-	</div>
-
-	<div class="row">
-		<!-- IMAGES -->
-		<div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 					</div>
-					<div class="modal-body">
-						<img class="enlargeImageModalSource" style="width: 100%;">
-					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<p class="bulletSection">
+							<span class="aboutTitles">Role:</span>
+						<ul>
+							<li class="bullets">UX/UI Developer</li>
+						</ul>
+						<span class="tools_title">Tools:</span>
+						<ul>
+							<li class="bullets">Sketch</li>
+							<li class="bullets">Xtensio</li>
+							<li class="bullets">Balsamiq Mockups 3</li>
+							<li class="bullets">Marvel</li>
+							<li class="bullets">Zeplin</li>
+						</ul>
+						</p>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
-			<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6464.PNG">
+		<!-- RESEARCH -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h2 style="text-align: left;">Findings</h2>
+					<p class="desc">
+						<span style="color: black;"> - User Research - </span><br/>
+						Users had trouble loading the app or getting errors based on the App Store reviews. A few people suggested not adding the timer to the app due to not even being able to find <span class="tooltip_link" data-toggle="tooltip" data-html="true" title="users get certain amount of users (~15 users) to connect with and then have to wait 24 hours (the timer) before connecting again">one user to connect with or having the users occur more frequently.</span>
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
-			<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6465.PNG">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
+					<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6464.PNG">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
+					<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6465.PNG">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
+					<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6466.PNG">
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
-			<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6466.PNG">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
+					<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6467.PNG">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
+					<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6468.PNG">
+				</div>
+			</div>
 		</div>
-	</div><br/>
 
-
-	<div class="row">
-		<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
-			<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6467.PNG">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						 Weave has a cleaner, yet easier understanding of the app. Shapr is a little harder to read due to the image on the background. When you slide to the left to the next description, I noticed the app name is no longer there, but an icon that could be replaced with something else that better depicts the app.
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 reviewsDiv">
-			<img class="reviews imgZoom" src="images/design/Shapr_redesign/screenshots/reviews/IMG_6468.PNG">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom" src="images/design/Shapr_redesign/annotations/1_start/weave-start.png">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom" src="images/design/Shapr_redesign/annotations/1_start/shapr-start.png">
+				</div>
+			</div>
 		</div>
-	</div>
-	<br/><br/>
-	<!-- END IMAGES -->
-	<!-- END IMAGES -->
-</div>
 
-
-<!--RESEARCH------------------------------------------------------------------------->
-
-<!-- RESEARCH -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				Once I gathered research from the app store reviews, I looked at the start-up screen of Weave and Shapr. Weave has a cleaner, yet easier understanding of the app. Shapr is a little harder to read the text due to the image on the background. On Shapr, when you slide to the left to the next description on the home screen, I noticed the app name is no longer there, but an icon that can be replaced with something more important.
-			</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						 Shapr has a huge whitespace and on the bottom of the app, causing everything to clump together, not giving them breathing space.
+					</p>
+				</div>
+			</div>
 		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom" src="images/design/Shapr_redesign/annotations/1_start/weave-start.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/2_signup/Weave.png">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/2_signup/Shapr.png">
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom" src="images/design/Shapr_redesign/annotations/1_start/shapr-start.png">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 annotationsDiv">
+					<p class="desc">
+						The tags are expanding too much that's taking too much space, which could be resolved by expanding into three widths instead of two. The "Meet" button should be changed to "Connect" because the users are <b>connecting</b> with each other rather than <em>meeting</em>, since not everyone meets everyone. The app should have a "messaging" icon to give users an opportunity to explain why they should match.
+					</p>
+				</div>
+			</div>
 		</div>
-	</div>
-	<!-- END IMAGES -->
-	<br/><br/>
 
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				I looked at the login of both apps and noticed a couple of issues from Shapr. Luckily, Shapr has the option to sign up via email or LinkedIn, whereas Weave only can sign up via LinkedIn. Shapr has a huge whitespace and on the bottom of the app, everything seems too squished together, not giving them breathing space. Imagine an elevator where people are just squished together to the right side of the elevator, whereas there is so much more room on the left side of the elevator. That...that is what it feels like.
-			</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/3_match/weave-match.png">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/3_match/shapr-match.png">
+				</div>
+			</div>
 		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/2_signup/Weave.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						Shapr has three options on the conversation tab: View all, Say hello, and Conversations. "View all" seems to be irrelevant since it's only combining "Say hello" and "Conversations". Shapr should have "Expiring" because users that have "matched" still don't contact each other. They should also add "Reconnect" because after the expiring date (48 hours), if users want to reconnect with the user again, this gives the user more opportunities to reconnect after the expired date. If they wish to not reconnect, then they may delete the user and it won't appear again.
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/2_signup/Shapr.png">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/4_convo/weave-convo.png">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/4_convo/Shapr-convo.png">
+				</div>
+			</div>
 		</div>
-	</div><br/><br/>
-	<!-- END IMAGES -->
 
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 annotationsDiv">
-			<p class="desc">
-				I looked at the matching section where I can swipe left to not meet and swipe right to meet. One thing I noticed is that the tags are expanding too much that's taking too much space. Some of the tags can be expanded to three widths instead of two. Another thing I noticed is that the "Meet" button should be "Connect" instead because the users are connecting with each other rather than "meeting". I thought about changing it "Messaging", but from my experiences using the app, not everyone messages everyone. I've used the app for quite awhile, and I haven't actually met someone yet, I've only messaged them. Finally, the app should have a "messaging" icon to give users an opportunity to explain why they should match. What if the other user passes, but you wanted to match? What if it was a good opportunity, but no chances were given? That's why the messaging app icon would be a good idea without the ability to rely on "pass" or "connect" button.
-			</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						One major flaw I saw while using the app was the inability to see what the user wrote back if I write a lot. Another feature they should add is the ability to call/video chat because in our profiles, we have "Favorite Ways to Meet" with options of video call, voice call, coffee, etc.
+					</p>
+				</div>
+			</div>
 		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/3_match/weave-match.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/4_convo/shapr-convo-1.png">
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/4_convo/shapr-convo-2.png">
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/3_match/shapr-match.png">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						Another flaw as mentioned from reviews were the loading time of updating location. Everytime I open the app to connect with fresh batches of users, the "updating your location" loading icon always shows. Why does it always need to update my location? Shouldn't once be enough? There is an option to skip the updating, but why do I have to do it every time I go on the app? Kind of redundant, don't you think?
+					</p>
+				</div>
+			</div>
 		</div>
-	</div><br/><br/>
-	<!-- END IMAGES -->
 
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				I looked at the conversation screen of both apps and noticed Shapr has three options: View all, Say hello, and Conversations. "View all" seems to be irrelevant since it's only combining "Say hello" and "Conversations". One feature I think Shapr should have is "Expiring". One thing I noticed when using the app, and also as others have told me is that people that have "matched", yet they both don't contact each other. If there is an expiring option like Weave, it would be a lot easier to eliminate those that match but don't want to talk. Another feature they should add is "Reconnect". After the expiring date (48 hours), if you want to reconnect with the user again, this gives the user more opportunities to reconnect after the expired date. If they wish to not reconnect, then they may delete the user and it won't appear again.
-			</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
+					<img class="shapr_screenshots imgZoom"  src="images/design/Shapr_redesign/screenshots/IMG_6449.PNG">
+				</div>
+			</div>
 		</div>
-	</div>
+		<!-- END OF RESEARCH -->
 
-	<div class="row">
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/4_convo/weave-convo.png">
+		<!-- PLAN -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						<span style="color: black;"> - Personas / Flow - </span><br/>
+						Two personas were created to understand the user. The storyboard were created to understand what would happen to someone using the app. <span class="tooltip_link" data-toggle="tooltip" data-html="true" title="sitemap, structure, and user flow">Information architecture</span> were created to understand the flow.
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/4_convo/Shapr-convo.png">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  src="images/design/Shapr_redesign/personas/elie.png"></div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  src="images/design/Shapr_redesign/personas/james.png"></div>
+			</div>
 		</div>
-	</div><br/><br/>
-	<!-- END IMAGES -->
 
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				One major flaw I saw while using the app was the inability to see what the user wrote back if I write a lot. Another feature they should add is the ability to call/video chat because in our profiles, we have "Favorite Ways to Meet" with options of video call, voice call, coffee, etc.
-			</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-6 col-sm-12 planDiv"><img class="storyboard imgZoom"  src="images/design/Shapr_redesign/storyboards/storyboard.png"></div>
+			</div>
 		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/4_convo/shapr-convo-1.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  style="width:100%; height:auto;" src="images/design/Shapr_redesign/Information_Architecture/Sitemap.jpg"></div>
+				<div class="col-lg-4 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  style="width:100%; height:auto;" src="images/design/Shapr_redesign/Information_Architecture/Structure.jpg"></div>
+				<div class="col-lg-4 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  style="width:100%; height:auto;" src="images/design/Shapr_redesign/Information_Architecture/user_flow.jpg"></div>
+			</div>
 		</div>
-		<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-			<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/annotations/4_convo/shapr-convo-2.png">
+		<!-- END OF PLAN -->
+
+		<!-- WIREFRAMES -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						<span style="color: black;"> - Wireframes - </span><br/>
+						Wireframes were created to help with organizing the structure of the app.
+					</p>
+				</div>
+			</div>
 		</div>
-	</div></br><br/>
-<!-- END IMAGES -->
 
-<div class="row">
-	<div class="col-lg-12 col-md-12 col-sm-12">
-		<p class="desc">
-			Another flaw as mentioned from reviews were the loading time of updating location. Everytime I open the app to connect with fresh batches of users, the "updating your location" loading icon always shows. Why does it always need to update my location? Shouldn't once be enough? There is an option to skip the updating, but why do I have to do it every time I go on the app? Kind of redundant, don't you think?
-		</p>
-	</div>
-</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 wireframeDiv">
+					<img class="wireframe imgZoom" src="images/design/Shapr_redesign/wireframes/Wireframe2.png" style="width:100%;">
+				</div>
+			</div>
+		</div><br/><br/>
+		<!-- END OF WIREFRAMES -->
 
-<div class="row">
-	<div class="col-lg-6 col-md-12 col-sm-12 annotationsDiv">
-		<img class="screenshots imgZoom"  src="images/design/Shapr_redesign/screenshots/IMG_6449.PNG">
-	</div>
-</div>
-</div>
-
-<!--
-<div class="container">
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12">
-<p class="desc">
-- Competitive Analysis -<br/>
-The first thing I did was research on any networking apps similar to Shapr. I stumbled upon an app that was very similar to Shapr, named Weave. I did a comparison between Weave and Shapr.
-</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12 analysisDiv">
-<img class="screenshots" src="images/design/Shapr_redesign/competitve_analysis/comparison.png">
-</div>
-</div>
-</div>
-
--->
-
-<br/><br/>
-<!-- END OF RESEARCH -->
-
-<!--END RESEARCH*************************************************************************->
-
-
-<!-- PLAN -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				<span style="color: black;"> - Personas / Flow - </span><br/>
-				I created two personas so I can understand from the person's perspective of who would use the app and why. I also created a storyboard where I was able to create scenarios of what would happen to someone when using the app. After that, I created some information architecture: sitemap, structure, and user flow of the app.
-			</p>
+		<!-- MOCKUPS -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						<span style="color: black;"> - Mockups - </span><br/>
+						I redesigned the Shapr app based on feedback and my own experience.
+					</p>
+				</div>
+			</div>
 		</div>
-	</div>
 
-	<!-- IMAGES -->
-	<div class="row">
-		<div class="col-lg-6 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom" style="width:100%; height:auto;" src="images/design/Shapr_redesign/personas/elie.png"></div>
-
-		<div class="col-lg-6 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  style="width:100%; height:auto;" src="images/design/Shapr_redesign/personas/james.png"></div>
-	</div><br/><br/>
-
-	<div class="row">
-		<div class="col-lg-12 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  style="width:100%; height:auto;" src="images/design/Shapr_redesign/storyboards/storyboard.png"></div>
-	</div><br/><br/>
-
-	<div class="row">
-		<div class="col-lg-4 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  style="width:100%; height:auto;" src="images/design/Shapr_redesign/Information_Architecture/Sitemap.jpg"></div>
-		<div class="col-lg-4 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  style="width:100%; height:auto;" src="images/design/Shapr_redesign/Information_Architecture/Structure.jpg"></div>
-		<div class="col-lg-4 col-md-6 col-sm-12 planDiv"><img class="planImages imgZoom"  style="width:100%; height:auto;" src="images/design/Shapr_redesign/Information_Architecture/user_flow.jpg"></div>
-	</div>
-</div><br/><br/>
-<!-- END IMAGES -->
-<!-- END OF PLAN -->
-
-<!--END PLAN *************************************************************************->
-
-<!-- WIREFRAMES -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				<span style="color: black;"> - Wireframes - </span><br/>
-				I created some wireframes to help with organizing the structure of the app.
-			</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
+					<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/Landing%20App.png" style="width:100%;">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
+					<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/Sign-in-view-profiles.png" style="width:100%;">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
+					<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/view%20profile.png" style="width:100%;">
+				</div>
+			</div>
 		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 wireframeDiv">
-			<img class="wireframe imgZoom" src="images/design/Shapr_redesign/wireframes/Wireframe2.png" style="width:100%;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
+					<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/view%20chat.png" style="width:100%;">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
+					<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/Chat.png" style="width:100%;">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
+					<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/timer-settings.png" style="width:100%;">
+				</div>
+			</div>
 		</div>
-	</div>
-</div><br/><br/>
-<!-- END OF WIREFRAMES -->
 
-<!--END WIREFRAMES*************************************************************************->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
+					<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/setting.png" style="width:100%;">
+				</div>
+			</div>
+		</div>
+		<!-- END OF MOCKUPS -->
 
-<!-- MOCKUPS -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				<span style="color: black;"> - Mockups - </span><br/>
-				I redesigned the Shapr app based on feedback and my own experience.
-			</p>
+		<!-- PROTOTYPES -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						<span style="color: black;"> - Prototypes - </span><br/>
+						I created a simple prototype with Marvel. Click <a href="https://marvelapp.com/2d8ghfa" target="_blank">here</a> to try it yourself.</p>
+				</div>
+			</div>
 		</div>
-	</div>
+		<!--
+		<video width="906" height="936" autoplay="true" loop>
+			<source src="images/design/Shapr_redesign/video/shapr.mov" type="video/mp4">
+		</video><br/><br/>
+		-->
+		<!-- END OF PROTOTYPES -->
 
-	<div class="row">
-		<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
-			<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/Landing%20App.png" style="width:100%;">
+		<!-- STYLES -->
+		<br/><br/>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p class="desc">
+						<span style="color: black;">- Styles - </span><br/>
+						Below are the typography and colors I used for the app.</p>
+				</div>
+			</div>
 		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
-			<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/Sign-in-view-profiles.png" style="width:100%;">
-		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
-			<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/view%20profile.png" style="width:100%;">
-		</div>
-	</div><br/>
 
-	<div class="row">
-		<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
-			<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/view%20chat.png" style="width:100%;">
-		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
-			<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/Chat.png" style="width:100%;">
-		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
-			<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/timer-settings.png" style="width:100%;">
-		</div>
-	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 stylesDiv">
+					<img class="styles imgZoom" src="images/design/Shapr_redesign/styles/Color%20Palette.png" style="width:100%;">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 stylesDiv">
+					<img class="styles imgZoom" src="images/design/Shapr_redesign/styles/Fonts.png" style="width:100%;">
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 stylesDiv">
+					<img class="styles imgZoom" src="images/design/Shapr_redesign/styles/Text%20Styles.png"  style="width:100%;">
+				</div>
+			</div>
+		</div><br/><br/>
+		<!-- END OF STYLES -->
 
-	<div class="row">
-		<div class="col-lg-4 col-md-12 col-sm-12 mockupsDiv">
-			<img class="before_after imgZoom" src="images/design/Shapr_redesign/before:after/setting.png" style="width:100%;">
+		<!-- LEARNED -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h2>Key Learnings</h2>
+					<p class="desc">
+						<b>Killing previous ideas.</b> What I designed in the wireframes was a bit different than what I had in the mockups because I had to limit myself to not add too much new features. I wanted to keep the original flow of it, but also create something a little different. There will always be changes being made, but I just need to focus on the goal.
+					</p>
+				</div>
+			</div>
 		</div>
-	</div>
+		<!-- END OF LEARNED -->
 
-</div><br/><br/>
-<!-- END OF MOCKUPS -->
-<!--END MOCKUPS*************************************************************************->
+		<footer>
+			<p class="footer_text">&copy; Annie Yang | Oh hey! You found my secret footer. :) I'll tell you a secret, *whispers* I'm not a robot...I'm a ninja...</p>
+		</footer>
 
-
-<!-- PROTOTYPES -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				<span style="color: black;"> - Prototypes - </span><br/>
-				I created a simple prototype with Marvel. Click <a href="https://marvelapp.com/2d8ghfa" target="_blank">here</a> to try it yourself.</p>
-		</div>
-	</div>
-</div>
-
-<video width="906" height="936" autoplay="true" loop>
-	<source src="images/design/Shapr_redesign/video/shapr.mov" type="video/mp4">
-</video><br/><br/>
-<!-- END OF PROTOTYPES -->
-<!--END PROTOTYPES *************************************************************************->
-
-<!-- STYLES -->
-<br/><br/>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<p class="desc">
-				<span style="color: black;">- Styles - </span><br/>
-				Below are the typography and colors I used for the app.</p>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-lg-4 col-md-12 col-sm-12 stylesDiv">
-			<img class="styles imgZoom" src="images/design/Shapr_redesign/styles/Color%20Palette.png" style="width:100%;">
-		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 stylesDiv">
-			<img class="styles imgZoom" src="images/design/Shapr_redesign/styles/Fonts.png" style="width:100%;">
-		</div>
-		<div class="col-lg-4 col-md-12 col-sm-12 stylesDiv">
-			<img class="styles imgZoom" src="images/design/Shapr_redesign/styles/Text%20Styles.png"  style="width:100%;">
-		</div>
-	</div>
-</div><br/><br/>
-<!--END STYLES *************************************************************************->
-
-
-<!-- LEARNED -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
-			<h2>Key Learnings</h2>
-			<p class="desc">
-				<b>Killing previous ideas.</b> What I designed in the wireframes was a bit different than what I had in the mockups because ideas kept flowing in my brain, but I had to limit myself to not add so much new stuff to the app. I wanted to keep the original flow of it, but also create something a little better. There will always be changes being made, but as long as I focus on the project's goals.
-			</p>
-		</div>
-	</div> <!-- END OF LEARNED -->
-</div>
-<!--END LEARNED ************************************************************************* -->
 		<!-- SCRIPT TAGS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-		<!-- OPEN MODAL -->
 		<script>
+			/* OPEN MODAL */
 			function openNav() {
 				document.getElementById("mySidenav").style.width = "250px";
 				document.getElementById("main").style.marginLeft = "250px";
@@ -520,6 +515,11 @@ The first thing I did was research on any networking apps similar to Shapr. I st
 					$('#enlargeImageModal').modal('show');
 				});
 			});
+
+			/* tooltip */
+			$(function () {
+				$('[data-toggle="tooltip"]').tooltip()
+			})
 		</script>
-		</body> <!-- END OF BODY -->
+	</body> <!-- END OF BODY -->
 </html>
