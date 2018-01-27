@@ -380,20 +380,13 @@ img.shapr_screenshots{
 	/* shapr */
 	.shapr_iphone{
 		height:80%;
-		width: 85%;
-		margin: 0 0 0 5%;
+		width: 60%;
+		margin: 0 0 0 15%;
 	}
 	h1, h2{
 		font-size: 2em;
 	}
 
-/*
-	video{
-		height:55%;
-		width: 55%;
-		margin: 0 0 0 25%;
-	}
-*/
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
@@ -478,15 +471,9 @@ img.shapr_screenshots{
 
 	/* shapr */
 	.shapr_iphone{
-		height:80%;
-		width: 85%;
+		height:60%;
+		width: 40%;
 		margin: 0 0 0 20%;
-	}
-
-	video{
-		height:55%;
-		width: 55%;
-		margin: 0 0 0 25%;
 	}
 }
 
