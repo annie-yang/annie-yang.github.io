@@ -67,7 +67,7 @@
 	<!-- START OF BODY -->
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<!-- NAVIGATION -->
-		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light nav-menu__bg">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -93,23 +93,23 @@
 		</nav>
 
 		<!-- Header -->
-		<header class="masthead d-flex" id="home">
+		<header class="mast-head d-flex" id="home">
 			<div class="container text-center my-auto">
-				<h1 class="bio_heading">Hello. My name is <span class="name wow rubberBand">Annie Yang.</span></h1>
-				<h2 class="bio_subTitle">
+				<h1 class="intro-heading">Hello. My name is <span class="name wow rubberBand">Annie Yang.</span></h1>
+				<h2 class="intro-subtitle">
 					<em>Coffee Consumer. Photographer. Ninja Designer.</em>
 				</h2>
-				<p class="bio_para">
-					I'm a self-taught full-stack designer with experience working in startups.	I enjoy designing great experiences for users that <span class="tooltip_link" data-toggle="tooltip" data-html="true" title="<em>Don't Make Me Think!</em> by Steve Krug">don't make them think.</span>
+				<p class="intro-paragraph">
+					I'm a self-taught full-stack designer with experience working in startups.	I enjoy designing great experiences for users that <span class="tooltip-info" data-toggle="tooltip" data-html="true" title="<em>Don't Make Me Think!</em> by Steve Krug">don't make them think.</span>
 				</p>
 				<p class="icons">
-					<a class="social_icons" href="https://github.com/annie-yang" target="_blank"><i class="fab fa-github"></i></a>
-					<a class="social_icons" href="https://www.linkedin.com/in/ayang4/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-					<a class="social_icons" href="https://www.instagram.com/illusiann/" target="_blank"><i class="fab fa-instagram"></i></a>
-					<a class="social_icons" href="mailto:yang.annie48@gmail.com"><i class="far fa-envelope"></i></a>
+					<a class="social-icons" href="https://github.com/annie-yang" target="_blank"><i class="fab fa-github"></i></a>
+					<a class="social-icons" href="https://www.linkedin.com/in/ayang4/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					<a class="social-icons" href="https://www.instagram.com/illusiann/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a class="social-icons" href="mailto:yang.annie48@gmail.com"><i class="far fa-envelope"></i></a>
 				</p>
-				<a class="btn btn-primary btn-xl js-scroll-trigger experience_btn wow tada" data-wow-delay="1s" href="experience.html">My Experience</a>
-				<a class="btn btn-primary btn-xl js-scroll-trigger project_btn" href="#projects">My Projects</a>
+				<a class="btn btn-primary btn-xl js-scroll-trigger experience-btn wow tada" data-wow-delay="1s" href="experience.html">My Experience</a>
+				<a class="btn btn-primary btn-xl js-scroll-trigger project-btn" href="#projects">My Projects</a>
 				<br/>
 				<img class="avatar" src="images/avatar.png" alt="avatar">
 			</div>
@@ -117,17 +117,17 @@
 		</header>
 
 		<!-- WORK -->
-		<div class="container work_section" id="projects">
+		<div class="container work" id="projects">
 			<div class="row">
 <!--				<div class="card-deck">-->
 				<div class="col-lg-4">
 					<div clas="col-md-12 col-lg-3">
 						<div class="card dnf_card">
-							<img class="card-img-top dnf_img" src="images/dnf/delightfulMac.png" alt="Delightful Natural Food Web App">
+							<img class="card-img-top dnf-img" src="images/dnf/delightfulMac.png" alt="Delightful Natural Food Web App">
 							<div class="card-body">
-								<h5 class="card-title delightful_title">Delightful Natural Food</h5>
-								<p class="card_desc delightful_card_desc">Responsive web app that allows consumers to purchase Delightful products</p>
-								<a class="btn btn-primary btn-xl js-scroll-trigger experience_btn" href="dnf.html">View Project</a>
+								<h5 class="card-title dnf-title">Delightful Natural Food</h5>
+								<p class="card-desc dnf-card-desc">Responsive web app that allows consumers to purchase Delightful products</p>
+								<a class="btn btn-primary btn-xl js-scroll-trigger experience-btn" href="dnf.html">View Project</a>
 							</div>
 						</div>
 					</div>
@@ -136,11 +136,11 @@
 				<div class="col-lg-4">
 					<div clas="col-md-12">
 						<div class="card plusOne_card">
-							<img class="card-img-top plusOne_img" src="images/plusOne/iphone_mockup.png" alt="PlusOne Social Mobile App">
+							<img class="card-img-top plusOne-img" src="images/plusOne/iphone_mockup.png" alt="PlusOne Social Mobile App">
 							<div class="card-body">
 								<h5 class="card-title">PlusOne Social</h5>
-								<p class="card_desc plusOne_card_desc">Mobile app that connects users with new friends</p>
-								<a class="btn btn-primary btn-xl js-scroll-trigger experience_btn" href="plusone.html">View Project</a>
+								<p class="card-desc plusOne_card_desc">Mobile app that connects users with new friends</p>
+								<a class="btn btn-primary btn-xl js-scroll-trigger experience-btn" href="plusone.html">View Project</a>
 							</div>
 						</div>
 					</div>
@@ -149,11 +149,11 @@
 				<div class="col-lg-4">
 					<div clas="col-md-12">
 						<div class="card staffany_card">
-							<img class="card-img-top staffany_img" src="images/staffany/login.png" alt="Staffany Web App">
+							<img class="card-img-top staffany-img" src="images/staffany/login.png" alt="Staffany Web App">
 							<div class="card-body">
-								<h5 class="card-title staffany_title">Staffany</h5>
-								<p class="card_desc staffany_card_desc">Web app that allows employees to set their work schedules easily</p>
-								<a class="btn btn-primary btn-xl js-scroll-trigger experience_btn" href="staffany.html">View Project</a>
+								<h5 class="card-title staffany-title">Staffany</h5>
+								<p class="card-desc staffany_card_desc">Web app that allows employees to set their work schedules easily</p>
+								<a class="btn btn-primary btn-xl js-scroll-trigger experience-btn" href="staffany.html">View Project</a>
 							</div>
 						</div>
 					</div>
@@ -165,37 +165,37 @@
 <!--				<div class="card-deck">-->
 				<div class="col-lg-4">
 					<div class="card shapr_card">
-						<img class="card-img-top shapr_img" src="images/shapr/iphone1.png" alt="Shapr Mobile App">
+						<img class="card-img-top shapr-img" src="images/shapr/iphone1.png" alt="Shapr Mobile App">
 						<div class="card-body">
 							<h5 class="card-title">Shapr (Side-Project) </h5>
-							<p class="card_desc">Mobile app that allows users to connect to new networks</p>
-							<a class="btn btn-primary btn-xl js-scroll-trigger experience_btn" href="shapr.html">View Project</a>
+							<p class="card-desc">Mobile app that allows users to connect to new networks</p>
+							<a class="btn btn-primary btn-xl js-scroll-trigger experience-btn" href="shapr.html">View Project</a>
 						</div>
 					</div>
 				</div>
 
-					<div class="card go_invisible">
-						<img class="card-img-top plusOne_img" src="Images/plusOne/iphone_mockup.png" alt="PlusOne Social Mobile App">
-						<div class="card-body">
-							<h5 class="card-title">PlusOne Social</h5>
-							<button>View Project</button>
-						</div>
-					</div>
-					<div class="card go_invisible">
-						<img class="card-img-top staffany_img" src="Images/staffany/login.png" alt="Staffany Web App">
-						<div class="card-body">
-							<h5 class="card-title">Staffany</h5>
-							<button>View Project</button>
-						</div>
+				<div class="card go_invisible">
+					<img class="card-img-top plusOne-img" src="Images/plusOne/iphone_mockup.png" alt="PlusOne Social Mobile App">
+					<div class="card-body">
+						<h5 class="card-title">PlusOne Social</h5>
+						<button>View Project</button>
 					</div>
 				</div>
+				<div class="card go_invisible">
+					<img class="card-img-top staffany-img" src="Images/staffany/login.png" alt="Staffany Web App">
+					<div class="card-body">
+						<h5 class="card-title">Staffany</h5>
+						<button>View Project</button>
+					</div>
+				</div>
+			</div>
 <!--			</div>-->
 		</div>
 
 		<!-- QUOTE -->
 		<div class="container">
 			<div class="row">
-				<div class="card quote_background text-center p-3 quote_card wow zoomIn">
+				<div class="card quote-background text-center p-3 quote-card wow zoomIn">
 					<blockquote class="blockquote mb-0">
 						<p class="quote">“Design creates stories, and stories create memorable experiences, and great experiences have this innate ability to change the way in which we view our world.”</p>
 						<footer class="blockquote-footer">
@@ -207,12 +207,11 @@
 		</div>
 
 		<!-- ABOUT -->
-		<div class="container about_section" id="about">
+		<div class="container about" id="about">
 			<div class="row">
 				<div class="col-12">
-					<p class="about_bio">
-
-						I have experience working in startups, taking on different roles, and continuously improving through self-learning from the <span class="tooltip_link" data-toggle="tooltip" data-html="true" title="books, udemy, blogs, online communities, podcasts"> internet.</span> When accessing a product, users look out for security (purchasing products, valid information, etc.), value (saving the user's time, achieving goals, etc.), and straightforwardness. My job is to help users eliminate any difficult tasks, present relevant information by priority, and depict a clear and easy flow for users so that they may have a good experience.
+					<p class="about-bio">
+						I have experience working in startups, taking on different roles, and continuously improving through self-learning from the <span class="tooltip-info" data-toggle="tooltip" data-html="true" title="books, udemy, blogs, online communities, podcasts"> internet.</span> When accessing a product, users look out for security (purchasing products, valid information, etc.), value (saving the user's time, achieving goals, etc.), and straightforwardness. My job is to help users eliminate any difficult tasks, present relevant information by priority, and depict a clear and easy flow for users so that they may have a good experience.
 						<br/><br/>
 						My process begins with understanding the business’ products, the target audience, and company background to develop company goals. Secondly, I research about the market by conducting competitive assessment and analysis to understand more about the space. Next, an information architecture is built so that users receive valid and structured content across products. I then continue proceed to test with prototypes for continuous feedback to create better features/product that users need before investing resources into building. Every step of my process empathizes with the user in order to deliver only the best experience.
 					</p>
@@ -220,31 +219,31 @@
 			</div><br/><br/>
 
 			<div class="container">
-				<h5 class="inspiration_title">My Inspirations:</h5>
+				<h5 class="inspiration-title">My Inspirations:</h5>
 				<p class="inspiration_text"></p>
 				<div class="row inspiration_img">
-					<div class="col-2 camera_div">
+					<div class="col-2 camera--div">
 						<img class="camera" src="images/inspiration/camera.png" alt="Camera icon">
-						<a class="camera_link" href="https://www.instagram.com/illusiann/" target="_blank"><p class="inspiration_subtitle">Photography</p></a>
+						<a class="camera-link" href="https://www.instagram.com/illusiann/" target="_blank"><p class="inspiration-subtitle">Photography</p></a>
 					</div>
-					<div class="col-2 coffee_div">
+					<div class="col-2 coffee--div">
 						<img class="coffee" src="images/inspiration/coffee.png" alt="Coffee icon">
-						<p class="inspiration_subtitle">Coffee hunting</p>
+						<p class="inspiration-subtitle">Coffee hunting</p>
 					</div>
-					<div class="col-2 travel_div">
+					<div class="col-2 travel--div">
 						<img class="travel" src="images/inspiration/travel.png" alt="Suitcase icon">
-						<p class="inspiration_subtitle">Traveling</p>
+						<p class="inspiration-subtitle">Traveling</p>
 					</div>
-					<div class="col-2 music_div">
+					<div class="col-2 music--div">
 						<img class="music" src="images/inspiration/music.png" alt="Headphones icon">
-						<p class="inspiration_subtitle">Music</p>
+						<p class="inspiration-subtitle">Music</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<footer>
-			<p class="footer_text">&copy; Annie Yang | Oh hey! You found my secret footer. :) I'll tell you a secret, *whispers* I'm not a robot...I'm a ninja...</p>
+			<p class="footer--text">&copy; Annie Yang | Oh hey! You found my secret footer. :) I'll tell you a secret, *whispers* I'm not a robot...I'm a ninja...</p>
 		</footer>
 
 		<!-- SCRIPT TAGS -->

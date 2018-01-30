@@ -1,9 +1,10 @@
-.bg-light{
+/****************** NAVIGATION MENU ******************/
+.nav-menu__bg{
 	background-color:#ffe1e6 !important;
 }
 
 /****************** MAST COVER ******************/
-.masthead {
+.mast-head {
 	min-height: 30rem;
 	position: relative;
 	width: 100%;
@@ -12,7 +13,7 @@
 	background: #ffe1e6;
 }
 
-.bio_heading{
+.intro-heading{
 	text-align: center;
 	font-family: 'Pacifico', cursive;
 	font-size: 4em;
@@ -20,21 +21,21 @@
 	color:#3f3f3f;
 }
 
-.bio_subTitle{
+.intro-subtitle{
 	text-align: center;
 	font-family: 'Quicksand', cursive;
 	font-size: 1.2em;
 	color:#3f3f3f;
 }
 
-.bio_para{
+.intro-paragraph{
 	text-align: center;
 	font-family: 'Quicksand', cursive;
 	font-size: 1.3em;
 	color:#3f3f3f;
 }
 
-.tooltip_link{
+.tooltip-info{
 	border-bottom: 1px dotted #000;
 	display: inline;
 }
@@ -59,67 +60,67 @@
 	text-align: center;
 }
 
-a.social_icons:hover{
+a.social-icons:hover{
 	opacity: 0.2;
 }
 
-.experience_btn{
+.experience-btn{
 	border-color: #6c5ce7;
 	background-color: #6c5ce7;
 	border-color: #6c5ce7;
 	color: white;
 }
 
-.experience_btn:hover{
+.experience-btn:hover{
 	border-color: #a29bfe;
 	background-color: #a29bfe;
 	border-color: #a29bfe;
 	color: white;
 }
 
-.project_btn{
+.project-btn{
 	background-color: #ffe1e6;
 	border-color: #3f3f3f;
 	color: #3f3f3f;
 }
 
-.project_btn:hover{
+.project-btn:hover{
 	background-color: #ffe1e6;
 	border-color: #6c5ce7;
 	color: #6c5ce7;
 }
 
 /****************** WORK ******************/
-.work_section{
+.work{
 	text-align: center;
 	padding: 5% 0 0 0;
 }
 
-.plusOne_img, .shapr_img{
+.plusOne-img, .shapr-img{
 	width:30%;
 	height: 55%;
 	margin: 5% 0 0 35%;
 }
 
-.staffany_img, .dnf_img{
+.staffany-img, .dnf-img{
 	width:70%;
 	height: 50%;
 	margin: 5% 0 0 15%;
 }
 
-.delightful_title{
+.dnf-title{
 	padding: 5% 0 0 0;
 }
 
-.delightful_card_desc{
+.dnf-card-desc{
 	padding: 1% 0 0 0;
 }
 
-.staffany_title{
+.staffany-title{
 	padding: 7% 0 0 0;
 }
 
-.card_desc, .card-title{
+.card-desc, .card-title{
 	font-family: 'Quicksand', cursive;
 }
 
@@ -132,12 +133,12 @@ a.social_icons:hover{
 }
 
 /****************** QUOTE ******************/
-.quote_background{
+.quote-background{
 	margin: 5% 0 0 0;
 	background-color: #ffe1e6;
 }
 
-.quote_card{
+.quote-card{
 	border:none;
 }
 
@@ -152,34 +153,34 @@ a.social_icons:hover{
 }
 
 /****************** ABOUT ******************/
-.about_section{
+.about{
 	padding: 5% 0 0 0;
 }
 
-.about_bio{
+.about-bio{
 	font-family: 'Quicksand', cursive;
 	font-size: 1.2em;
 }
 
-.inspiration_subtitle{
+.inspiration-subtitle{
 	text-align: center;
 }
 
-.inspiration_title{
+.inspiration-title{
 	font-family: 'Quicksand', cursive;
 	font-weight: 1000;
 	font-size: 1.4em;
 }
 
-a.camera_link{
+a.camera-link{
 	color: #6c5ce7;
 }
 
-a.camera_link:hover{
+a.camera-link:hover{
 	color: #a29bfe;
 }
 
-.camera_div{
+.camera--div{
 	top:3px;
 	padding: 0%;
 }
@@ -190,7 +191,7 @@ img.camera{
 	height: 45%;
 }
 
-.coffee_div{
+.coffee--div{
 	top:-12px;
 	padding: 0%;
 }
@@ -207,7 +208,7 @@ img.travel{
 	height: 40%;
 }
 
-.travel_div{
+.travel--div{
 	top:12px;
 	padding: 0%;
 }
@@ -218,12 +219,12 @@ img.music{
 	height: 40%;
 }
 
-.music_div{
+.music--div{
 	top: 14px;
 	padding: 0%;
 }
 
-.footer_text{
+.footer--text{
 	color:white;
 	text-align: center;
 	margin: 0%;
