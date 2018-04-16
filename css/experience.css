@@ -58,6 +58,12 @@ h2{
 	margin: 0%;
 }
 
+.puffy_logo{
+	width:50%;
+	height:35%;
+	padding:0%;
+}
+
 .staffany_logo{
 	width:100%;
 	height:20%;
@@ -95,7 +101,7 @@ h2{
 		font-size: 1.2em;
 	}
 
-	.staffany_logo, .plusone_logo, .dnf_logo, .hilmar_logo{
+	.staffany_logo, .plusone_logo, .dnf_logo, .hilmar_logo, .puffy_logo{
 		display: none;
 	}
 	h1{
@@ -107,7 +113,7 @@ h2{
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
-	.staffany_logo, .plusone_logo, .dnf_logo, .hilmar_logo, .staffany_col{
+	.staffany_logo, .plusone_logo, .dnf_logo, .hilmar_logo, .staffany_col, .puffy_logo{
 		display: none;
 	}
 }
