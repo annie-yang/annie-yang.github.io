@@ -1,487 +1,217 @@
-.bg-light{
-	background-color:#ffe1e6 !important;
+/****************** GLOBAL ******************/
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
 }
 
-.footer_text{
-	color:white;
-	text-align: center;
-	margin: 5% 0 0 0;
+:root {
+    --bg-color: #202022;
+    --font-color: #fff;
+    --weblink-color: #86CB92;
+    --weblink-color-hover: #8789C0;
+    --title-name-color: #86CB92;
+    --subtitle-color: #DDDDDD;
+    --card-desc-color: #EFEFEF;
+    --button-bg-color: #93CC86;
+    --button-txt-color: #357A25;
 }
 
-.desc, .lists{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
-	padding-top: 3%;
-	color: #4A4A4A;
-	margin: 0%;
+[data-theme="light"] {
+    --bg-color: #F5F5F5;
+    --font-color: #424242;
+    --weblink-color: #8789C0;
+    --weblink-color-hover: #86CB92;
+    --title-name-color: #8789C0;
+    --subtitle-color: #424242;
+    --card-desc-color: #424242;
+    --button-bg-color: #C2CAE8;
+    --button-txt-color: #8380B6;
 }
 
-span.aboutTitles{
-	color: black;
-	font-weight: bold;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
+/**** END of global ****/
+
+/**** Dark/light mode ****/
+#checkbox{
+    visibility: hidden;
 }
 
-.tools_title{
-	color: black;
-	font-size: 1.4em;
-	font-weight: bold;
-	font-family: 'Quicksand', sans-serif;
+.emoji-light-dark .toggle ~ .emoji:before {
+    content: "😎";
+}
+.emoji-light-dark .toggle:checked ~ .emoji:before {
+    content: "🙈";
 }
 
-.bullets{
-	color: #4A4A4A;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
+/****************** NAVIGATION ******************/
+.navbar{
+    background-color: var(--bg-color);
 }
 
-.bulletSection{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.5em;
-	color: #4A4A4A;
-	margin:0%;
-	padding: 7% 0 0 0;
+.nav-link{
+    color: var(--weblink-color);
+    font-family: 'Quicksand', cursive;
 }
 
-.beforeBullets{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
-	padding-bottom: 25px;
-	padding-top: 25px;
-	color: #4A4A4A;
+#nav-right{
+    color: var(--weblink-color);
+    font-family: 'Quicksand', cursive;
 }
 
-.toolongLink{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
-	color: #6c5ce7;
+#nav-right:hover{
+    color: var(--weblink-color-hover);
+    font-family: 'Quicksand', cursive;
+    text-decoration: underline;
 }
 
-.toolongLink:hover{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
-	color: #a29bfe;
+#nav-right.active{
+    text-decoration: underline;
+    color: var(--weblink-color-hover);
+}
+
+a.nav-link:hover{
+    color: var(--weblink-color-hover);
+}
+
+.nav-item{
+    text-align: right;
+}
+/**** END of navigation ****/
+
+/****************** BODY ******************/
+/**** Heading ****/
+.project-title{
+    color: var(--title-name-color);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 4em;
+    padding: 3% 0% 0% 0%;
+}
+
+.weblink{
+    color: var(--weblink-color);
+    font-family: 'Quicksand', cursive;
+}
+
+.weblink:hover{
+    color: var(--weblink-color-hover);
+}
+
+/* collapse */
+.btn-primary{
+/*    background-color: var(--weblink-color);*/
+    background-color: var(--button-bg-color);
+    color: var(--button-txt-color);
+    border-color: var(--button-bg-color);
+    font-family: 'Quicksand', cursive;
+    margin-top: 2%;
+}
+
+.btn-primary:hover{
+    background-color: var(--button-txt-color);
+    border-color: var(--button-txt-color);
 }
 
 .card-body{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
-	color: #4A4A4A;
+    background-color: var(--font-color);
 }
 
-/**************** Delightful Natural Food *****************/
-.unactive_link{
-	cursor:not-allowed;
+.collapse-text{
+    color: var(--bg-color);
+    font-family: 'Quicksand', cursive;
+}
+/**** END of heading ****/
+
+.title{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.subtitle{
+    color: var( --subtitle-color);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.desc{
+    font-family: 'Quicksand', cursive;
+}
+
+.images-macbook{
+    width:50%;
+    height:10%;
+}
+
+.images-phone{
+    width:20%;
+    height:10%;
+}
+
+.download_btn{
+    margin-bottom: 3%;
 }
 
 .tooltip_link{
-	border-bottom: 1px dotted #000;
-	display: inline;
+   text-decoration: underline;
 }
 
-.unactive_link:hover{
-	cursor:not-allowed;
-	color:grey;
-	text-decoration:line-through;
+.social-icons{
+    text-decoration: none;
+    display: inline;
 }
 
-h1{
-	padding: 3% 0 0 0;
-	font-family: 'Pacifico', cursive;
-	text-align: center;
-}
-
-a.workLink, h3{
-	font-family: 'Quicksand', sans-serif;
-	color: #6c5ce7;
-	text-align: center;
-	font-size: 1.2em;
-}
-
-a.workLink:hover{
-	color: #a29bfe;
-	font-family: 'Quicksand', sans-serif;
-	text-align: center;
-	font-size: 1.2em;
-}
-
-.heading{
-	font-family: 'Pacifico', cursive !important;
-	font-size: 4em;
-	text-align: center;
-	color: #4A4A4A;
-}
-
-.imageCaptions{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
-	padding-bottom: 25px;
-	padding-top: 25px;
-	color: #4A4A4A;
-}
-
-.imgZoom {
-	cursor: zoom-in;
-}
-
-.personas_img{
-	width: 70%;
-	height: 80%;
-}
-
-.user_flow{
-	width: 80%;
-	height: 100%;
-}
-
-.user_flow2{
-	width: 70%;
-	height: 50%;
-}
-
-.red_routes{
-	width: 70%;
-	height: 90%;
-}
-
-.compAnalysis_img{
-	width: 100%;
-	height: 100%;
-}
-
-.compAnalysis_img2{
-	width: 60%;
-	height: 70%;
-}
-
-h3{
-	font-family: 'Pacifico', cursive !important;
-	text-decoration: underline;
-}
-
-h2{
-	font-family: 'Pacifico', cursive !important;
-	text-decoration: underline;
-	color: #4A4A4A;
-	font-size: 2.5em !important;
-}
-
-.userTesting{
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.2em;
-}
-
-.imac{
-	width:75%;
-	height:90%;
-	margin: 5% 0 0 65%;
-}
-
-.wireframes_img{
-	width:60%;
-	height:100%;
-}
-
-.wireframes_img2{
-	width:90%;
-	height:90%;
-}
-
-.mockup1{
-	width:35%;
-	height:100%;
-}
-
-.mockup2{
-	width:80%;
-	height:50%;
-}
-
-.mockup3{
-	width:90%;
-	height:100%;
-}
-
-.text_styles_img{
-	width:80%;
-	height:90%;
-}
-
-.text_styles_img2{
-	width:100%;
-	height:30%;
-}
-
-.color_img{
-	width:60%;
-	height:30%;
-}
-
-img.iphone_front{
-	width:25%;
-	height:76%;
-	margin: 16% 0 0 0%;
-}
-
-.iphone{
-	width:10%;
-	height:10%;
-}
-
-.iphone2{
-	width:25%;
-	height:25%;
-}
-
-img.screenshots{
-	width:60%;
-	height:70%;
-	padding-bottom: 25px;
-}
-
-p.slogan{
-	padding: 2% 0 2% 0;
-	font-size: 1.5em;
-}
-
-.moreProjectImages:hover{
-	opacity: 0.6;
-}
-
-.moreProjectImages{
-	height: 100%;
-	width: 100%;
-}
-
-/*************** PlusOne Social ****************/
-.plusOne_front{
-	width: 15%;
-	height: 95%;
-	margin: 0 0 0 42%;
-}
-
-/*************** Staffany ****************/
-img.staffany_imac{
-	width:35%;
-}
-
-img.logo{
-	width: 40%;
-	height: 90%;
-}
-
-img.staffany_styles{
-	width: 100%;
-	height: 100%;
-}
-
-img.staffany_colors{
-	width: 100%;
-	height: 50%;
-}
-
-/**************** Shapr ****************/
-.shapr_iphone{
-	width: 20%;
-	height: 70%;
-	text-align: center;
-}
-
-.reviews{
-	width:50%;
-}
-
-img.shapr_screenshots{
-	width: 50%;
-	height: 100%;
-}
-
-.planImages{
-	width: 80%;
-	height: 100%;
-}
-
-.storyboard{
-	width: 40%;
-	height: 90%;
-}
-
-
-/* MEDIA QUERIES */
+/****************** MEDIA QUERIES ******************/
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-	/* delightful*/
-	.tools_title{
-		color: black;
-		font-size: 1em;
-		font-weight: bold;
-		font-family: 'Quicksand', sans-serif;
-	}
+    .navigation-img{
+        height:100%;
+        width:100%;
+    }
 
-	.imac{
-		height:80%;
-		width: 80%;
-		margin: 9%;
-	}
+    img.signup-img{
+        height:90% !important;
+        width:90% !important;
+    }
 
-	img.iphone_front{
-		height:90%;
-		width: 35%;
-		margin: 0 0 0 31%;
-	}
+    .images-macbook{
+        height:100%;
+        width:100%;
+    }
 
-	h1, h2{
-		font-size: 2em !important;
-	}
+    .images-phone{
+        height:60%;
+        width:60%;
+    }
+    .plusone-wireframe{
+        margin: 5% 0 0 0;
+    }
+}
 
-	.desc, ul.lists, .bulletSection, li.bullets, .card-body, .mb-0, .userTesting{
-		font-size: 1em;
-	}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .wireframe-2{
+        height:100% !important;
+        width:70%;
+    }
 
-	.workLink{
-		font-size: 0.8em !important;
-	}
-
-	.mockup2, .text_styles_img2, .color_img{
-		height:90%;
-		width: 90%;
-	}
-
-	/* plusone */
-	.plusOne_front{
-		height:90%;
-		width: 40%;
-		margin: 0 0 0 31%;
-	}
-
-	h1, h2{
-		font-size: 2em;
-	}
-
-	/* staffany */
-	img.staffany_imac{
-		height:40%;
-		width: 70%;
-	}
-
-	img.logo{
-		width: 100%;
-		height: 100%;
-	}
-
-	img.staffany_colors{
-		width: 100%;
-		height: 100%;
-	}
-	h1, h2{
-		font-size: 2em;
-	}
-
-	/* shapr */
-	.shapr_iphone{
-		height:80%;
-		width: 60%;
-		margin: 0 0 0 15%;
-	}
-	h1, h2{
-		font-size: 2em;
-	}
-
+    .wireframe-3{
+        height:80% !important;
+        width:100% !important;
+    }
+    .personas{
+        height:90% !important;
+        width:90% !important;
+    }
+    .image-padding{
+        margin: 8% 0 0 0;
+    }
+    .image-padding-2{
+        padding: 15% 0 0 0;
+    }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
-	/* delightful*/
-	.tools_title{
-		color: black;
-		font-size: 0.9em;
-		font-weight: bold;
-		font-family: 'Quicksand', sans-serif;
-	}
-
-	.imac{
-		height:100%;
-		width: 100%;
-		margin: 0 0 0 55%;
-	}
-
-	.delightfulPhone{
-		margin: 0 0 0 32%;
-	}
-
-	.workLink{
-		font-size: 0.8em !important;
-	}
-
-	img.iphone_front{
-		height:90%;
-		width: 50%;
-		margin: 5% 0 0 9%;
-	}
-
-	h1, h2{
-		font-size: 2em !important;
-	}
-
-	.desc, ul.lists, .bulletSection, li.bullets, .card-body, .mb-0, .userTesting{
-		font-size: 1em;
-	}
-
-	.mockup2, .mockup3, .text_styles_img2, .color_img{
-		height:80%;
-		width: 50%;
-	}
-
-	.text_styles_img{
-		height:80%;
-		width: 50%;
-	}
-
-	/* plusOne */
-	.plusOne_front{
-		height:100%;
-		width: 20%;
-		margin: 0 0 0 40%;
-	}
-
-	.styles{
-		height:100%;
-		width: 10%;
-	}
-
-	/* staffany */
-	img.staffany_imac{
-		height:40%;
-		width: 50%;
-	}
-
-	img.logo{
-		width: 60%;
-		height: 90%;
-	}
-
-	img.staffany_colors{
-		width: 60%;
-		height: 90%;
-	}
-
-	img.staffany_styles{
-		width: 50%;
-		height: 100%;
-	}
-
-	/* shapr */
-	.shapr_iphone{
-		height:60%;
-		width: 40%;
-		margin: 0 0 0 20%;
-	}
+    .navigation-img{
+        height:100%;
+        width:100%;
+    }
 }
 
 @media only screen and (min-width: 1023px) and (max-width: 2560px) {
-	/* staffany */
-	.staffany_imac{
-		height:50%;
-		width: 55%;
-	}
-}
 
+}
