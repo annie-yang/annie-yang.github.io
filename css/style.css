@@ -1,77 +1,77 @@
 body {
-    background-color: var(--bg-color);
-    color: var(--font-color);
+	 background-color: var(--bg-color);
+	 color: var(--font-color);
 }
 
 /****************** DARK/LIGHT MODE ******************/
 /**** global ****/
 :root {
-    --bg-color: #202022;
-    --font-color: #fff;
-    --footer-color: #202022;
-    --weblink-color: #86CB92;
-    --weblink-color-hover: #8789C0;
-    --title-name-color: #86CB92;
-    --card-color: #141414;
-    --card-subtitle-color: #DDDDDD;
-    --card-desc-color: #EFEFEF;
+	 --bg-color: #202022;
+	 --font-color: #fff;
+	 --footer-color: #202022;
+	 --weblink-color: #ECDD7B;
+	 --weblink-color-hover: #8789C0;
+	 --title-name-color: #ECDD7B;
+	 --card-color: #141414;
+	 --card-subtitle-color: #DDDDDD;
+	 --card-desc-color: #EFEFEF;
 }
 
 [data-theme="light"] {
-    --bg-color: #F5F5F5;
-    --font-color: #424242;
-    --weblink-color: #8789C0;
-    --weblink-color-hover: #86CB92;
-    --title-name-color: #8789C0;
-    --card-color: white;
-    --card-subtitle-color: #DDDDDD;
-    --card-desc-color: #424242;
+	 --bg-color: #F5F5F5;
+	 --font-color: #424242;
+	 --weblink-color: #8789C0;
+	 --weblink-color-hover: #ECDD7B;
+	 --title-name-color: #8789C0;
+	 --card-color: white;
+	 --card-subtitle-color: #DDDDDD;
+	 --card-desc-color: #424242;
 }
 /**** END of global ****/
 
 #checkbox{
-    visibility: hidden;
+	 visibility: hidden;
 }
 
 .emoji-light-dark .toggle ~ .emoji:before {
-    content: "☀️";
+	 content: "☀️";
 }
 .emoji-light-dark .toggle:checked ~ .emoji:before {
-    content: "🌙";
+	 content: "🌙";
 }
 
 /****************** NAVIGATION MENU ******************/
 .navbar{
-   background-color: var(--bg-color);
+	background-color: var(--bg-color);
 }
 
 .nav-link{
-    color: var(--weblink-color);
-    font-family: 'Quicksand', cursive;
+	 color: var(--weblink-color);
+	 font-family: 'Quicksand', cursive;
 }
 
 #nav-right{
-    color: var(--weblink-color);
-    font-family: 'Quicksand', cursive;
+	 color: var(--weblink-color);
+	 font-family: 'Quicksand', cursive;
 }
 
 #nav-right:hover{
-    color: var(--weblink-color-hover);
-    font-family: 'Quicksand', cursive;
-    text-decoration: underline;
+	 color: var(--weblink-color-hover);
+	 font-family: 'Quicksand', cursive;
+	 text-decoration: underline;
 }
 
 #nav-right.active{
-    text-decoration: underline;
-    color: var(--weblink-color-hover);
+	 text-decoration: underline;
+	 color: var(--weblink-color-hover);
 }
 
 a.nav-link:hover{
-    color: var(--weblink-color-hover);
+	 color: var(--weblink-color-hover);
 }
 
 .nav-item{
-    text-align: right;
+	 text-align: right;
 }
 /**** END of navigation ****/
 
@@ -79,76 +79,76 @@ a.nav-link:hover{
 /****************** BODY ******************/
 /**** heading ****/
 .name-title{
-    padding-top:7%;
-    color: var(--title-name-color);
-    font-family: 'Gochi Hand', cursive;
-    font-size:5em;
+	 padding-top:7%;
+	 color: var(--title-name-color);
+	 font-family: 'Gochi Hand', cursive;
+	 font-size:5em;
 }
 
 h4{
-    font-family: 'Quicksand', cursive;
-    color: var(--primary-color);
-    font-size: 1.5em;
+	 font-family: 'Quicksand', cursive;
+	 color: var(--primary-color);
+	 font-size: 1.5em;
 }
 
 .motto{
-    font-family: 'Quicksand', cursive;
-    color: var(--primary-color);
-    font-size: 1em;
+	 font-family: 'Quicksand', cursive;
+	 color: var(--primary-color);
+	 font-size: 1em;
 }
 
 .intro-header{
-    padding-bottom: 5%;
+	 padding-bottom: 5%;
 }
 /**** END of heading ****/
 
 /**** work ****/
 .card-title{
-    font-family: 'Varela Round', sans-serif;
-    color: var(--font-color);
+	 font-family: 'Varela Round', sans-serif;
+	 color: var(--font-color);
 }
 
 .card-subtitle{
-    font-family: 'Varela Round', sans-serif;
-    color: var( --card-subtitle-color);
+	 font-family: 'Varela Round', sans-serif;
+	 color: var( --card-subtitle-color);
 }
 
 .card-text{
-    font-family: 'Quicksand', cursive;
-    color: var(--card-desc-color);
+	 font-family: 'Quicksand', cursive;
+	 color: var(--card-desc-color);
 }
 
 .card-link{
-    color: var(--weblink-color);
-    font-family: 'Quicksand', cursive;
+	 color: var(--weblink-color);
+	 font-family: 'Quicksand', cursive;
 }
 
 .card-link:hover{
-    color: var(--weblink-color-hover);
-    text-decoration: none;
+	 color: var(--weblink-color-hover);
+	 text-decoration: none;
 }
 
 .card-body{
-    background-color: var(--card-color);
-    color:#888;
-    border-radius: 10px;
+	 background-color: var(--card-color);
+	 color:#888;
+	 border-radius: 10px;
 }
 /**** END of work ****/
 
 /****************** FOOTER ******************/
 .footer--text{
-    color: var(--footer-color);
-    text-align: center;
-    font-family: 'Quicksand', cursive;
+	 color: var(--footer-color);
+	 text-align: center;
+	 font-family: 'Quicksand', cursive;
 }
 /**** END of footer ****/
 
 
 /****************** MEDIA QUERIES ******************/
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .space-card{
-        margin-top: 8%;
-    }
+	 .space-card{
+		  margin-top: 8%;
+	 }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
