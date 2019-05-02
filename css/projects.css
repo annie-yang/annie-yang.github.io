@@ -8,20 +8,20 @@ body {
 :root {
 	 --bg-color: #202022;
 	 --font-color: #fff;
-	 --weblink-color: #ECDD7B;
+	 --weblink-color: #22AAA1;
 	 --weblink-color-hover: #8789C0;
-	 --title-name-color: #ECDD7B;
+	 --title-name-color: #22AAA1;
 	 --subtitle-color: #DDDDDD;
 	 --card-desc-color: #EFEFEF;
-	 --button-bg-color: #ECDD7B;
-	 --button-txt-color: #C9B21C;
+	 --button-bg-color: #22AAA1;
+	 --button-txt-color: #0B665F;
 }
 
 [data-theme="light"] {
 	 --bg-color: #F5F5F5;
 	 --font-color: #424242;
 	 --weblink-color: #8789C0;
-	 --weblink-color-hover: #ECDD7B;
+	 --weblink-color-hover: #22AAA1;
 	 --title-name-color: #8789C0;
 	 --subtitle-color: #424242;
 	 --card-desc-color: #424242;
