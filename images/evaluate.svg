@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="732px" height="526px" viewBox="0 0 732 526" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>undraw_heatmap_uyye</title>
+    <desc>Created with Sketch.</desc>
+    <g id="05_Services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-147.000000, -116.000000)" fill-rule="nonzero">
+            <g id="undraw_heatmap_uyye" transform="translate(147.000000, 116.000000)">
+                <rect id="Rectangle" fill="#F2F2F2" x="0" y="0" width="731" height="23"></rect>
+                <circle id="Oval" fill="#FFBFCB" cx="20" cy="11" r="6"></circle>
+                <circle id="Oval" fill="#FFBFCB" cx="39" cy="11" r="6"></circle>
+                <circle id="Oval" fill="#FFBFCB" cx="59" cy="11" r="6"></circle>
+                <polygon id="Path" fill="#3F3D56" points="0.518145733 368.426891 0 368.872218 0 526 731 526 731 250 722.288066 250.661781"></polygon>
+                <rect id="Rectangle" fill="#3F3D56" x="53" y="156" width="204" height="8"></rect>
+                <rect id="Rectangle" fill="#3F3D56" x="53" y="174" width="204" height="8"></rect>
+                <rect id="Rectangle" fill="#3F3D56" x="53" y="192" width="69" height="8"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="470" y="384" width="204" height="8"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="470" y="403" width="204" height="8"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="469" y="421" width="69" height="8"></rect>
+                <circle id="Oval" fill="#F2F2F2" cx="342" cy="510" r="8"></circle>
+                <circle id="Oval" fill="#F2F2F2" cx="366" cy="511" r="8"></circle>
+                <circle id="Oval" fill="#F2F2F2" cx="389" cy="511" r="8"></circle>
+                <circle id="Oval" fill="#3F3D56" cx="365.5" cy="510.5" r="6.5"></circle>
+                <rect id="Rectangle" fill="#3F3D56" x="120" y="250" width="69" height="16"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="532" y="463" width="69" height="16"></rect>
+                <circle id="Oval" fill="#FFBFCB" opacity="0.3" cx="155" cy="258" r="48"></circle>
+                <circle id="Oval" fill="#FFBFCB" opacity="0.3" cx="155" cy="258" r="32"></circle>
+                <circle id="Oval" fill="#FFBFCB" cx="155" cy="258" r="22"></circle>
+                <circle id="Oval" fill="#FFBFCB" opacity="0.3" cx="558" cy="139" r="48"></circle>
+                <circle id="Oval" fill="#FFBFCB" opacity="0.3" cx="558" cy="139" r="32"></circle>
+                <circle id="Oval" fill="#FFBFCB" cx="558" cy="139" r="22"></circle>
+                <circle id="Oval" fill="#FFBFCB" opacity="0.3" cx="566" cy="472" r="48"></circle>
+                <circle id="Oval" fill="#FFBFCB" opacity="0.3" cx="566" cy="472" r="32"></circle>
+                <circle id="Oval" fill="#FFBFCB" cx="566" cy="472" r="22"></circle>
+                <path d="M698.401994,499.173482 C709.261134,517.675019 731.162214,525 731.162214,525 C731.162214,525 735.457139,502.328072 724.598009,483.826526 C713.738878,465.324981 691.837789,458 691.837789,458 C691.837789,458 687.542855,480.671937 698.401994,499.173482 Z" id="Path" fill="#F2F2F2"></path>
+                <path d="M705.355801,492.692495 C724.133476,503.113038 732,524.86806 732,524.86806 C732,524.86806 709.421884,529.728043 690.644199,519.3075 C671.866515,508.886957 664,487.131944 664,487.131944 C664,487.131944 686.578116,482.271952 705.355801,492.692495 Z" id="Path" fill="#FFBFCB"></path>
+            </g>
+        </g>
+    </g>
+</svg>
