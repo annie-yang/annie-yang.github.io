@@ -194,4 +194,62 @@ footer{
     .space-card{
         margin-top: 8%;
     }
+
+    .social-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0%;
+    }
+
+    .aboutme-image{
+        padding: 3% 0 3% 0;
+    }
+
+    .btn{
+        margin: 5% 0 10% 0;
+    }
+
+    .project-title{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .space-card{
+        margin-top: 8%;
+    }
+
+    .social-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0%;
+    }
+
+    .aboutme-image{
+        padding: 3% 0 3% 0;
+    }
+
+    .btn{
+        margin: 5% 0 10% 0;
+    }
+
+    .project-title{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2560px) {
+    .aboutme-image{
+        padding: 3% 0 3% 0;
+        height: 80%;
+        width: 80%;
+    }
+
+    .btn{
+        margin: 2% 0 3% 0;
+    }
 }
