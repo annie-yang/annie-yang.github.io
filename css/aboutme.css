@@ -114,6 +114,10 @@ a.nav-link:hover{
     text-align: right;
 }
 
+.bg-light{
+    background-color: var( --bg-color) !important;
+}
+
 .theme-switch-wrapper{
     margin: 0 0 0 3%;
 }

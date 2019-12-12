@@ -68,6 +68,10 @@ a.nav-link:hover{
       text-align: right;
 }
 
+.bg-light{
+    background-color: var( --bg-color) !important;
+}
+
 /* icons */
 svg{
      fill: var(--weblink-color);
