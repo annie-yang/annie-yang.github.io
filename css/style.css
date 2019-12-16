@@ -104,7 +104,13 @@ svg{
       padding-top:7%;
       color: var(--title-name-color);
       font-family: 'Bebas Neue', cursive;
-      font-size:4.5em;
+      font-size:5em;
+}
+
+.heading-subtext{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+    font-size: 1.2em;
 }
 
 h5{
@@ -134,15 +140,16 @@ h5{
 
 .section-title{
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     padding: 5% 0 1% 0;
-    text-decoration: underline;
+    font-size: 1.2em;
 }
 
 /** My process section **/
 .process-title{
     color: var(--font-color);
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.6em;
 }
 
 .step-1, .step-2, .step-3, .step-4 {
@@ -220,15 +227,18 @@ h5{
 .card-title{
     font-family: 'Bebas Neue', cursive;
     color: var(--font-color);
+    font-size: 2em;
 }
 
 .card-subtitle{
     font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
 }
 
 .card-text{
     font-family: 'Montserrat', sans-serif;
     color: var(--card-text);
+    font-size: 1em;
 }
 
 .btn{
