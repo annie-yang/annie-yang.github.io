@@ -93,17 +93,17 @@ input:checked + .slider:before {
 
 .nav-link{
     color: var(--weblink-color);
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #nav-right{
     color: var(--weblink-color);
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #nav-right:hover{
     color: var(--weblink-color-hover);
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a.nav-link:hover{
@@ -138,20 +138,21 @@ svg{
 /**** Heading ****/
 .project-title{
      color: var(--title-name-color);
-     font-family: 'Kalam', cursive;
-     font-size: 4em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
      padding: 3% 0% 0% 0%;
 }
 
 .collapse-text{
      color: var(--bg-color);
-     font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /**** END of heading ****/
 
 .btn{
     border-color: var(--title-name-color);
     color: var(--title-name-color);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn:hover{
@@ -175,21 +176,21 @@ svg{
 .card-collapse{
     background-color: var(--card-desc-color);
     color:#888;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 2%;
 }
 
 .card-title{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--font-color);
 }
 
 .card-subtitle{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card-text{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--card-text);
 }
 
@@ -210,16 +211,16 @@ svg{
 }
 
 .title{
-     font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .subtitle{
      color: var( --subtitle-color);
-     font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .desc{
-     font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .images-macbook{

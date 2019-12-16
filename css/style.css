@@ -14,7 +14,8 @@ body {
      --card-color: white;
      --card-subtitle-color: #C8C8C8;
      --card-text: #A8A8A8;
-     --steps-number: #2cb67d;
+     --steps-number: #A8A8A8;
+     --main-steps-number: #D6CDFF;
 }
 
 [data-theme="dark"] {
@@ -27,7 +28,8 @@ body {
      --card-color: #141414;
      --card-subtitle-color: #2cb67d;
      --card-text: #A8A8A8;
-     --steps-number: #6246ea;
+     --steps-number: #A8A8A8;
+     --main-steps-number: #B1F3B8;
 }
 
 #checkbox{
@@ -49,7 +51,7 @@ body {
 
 .nav-link{
       color: var(--weblink-color);
-      font-family: 'Questrial', sans-serif;
+      font-family: 'Montserrat', sans-serif;
 }
 
 a.nav-link:hover{
@@ -58,12 +60,12 @@ a.nav-link:hover{
 
 #nav-right{
       color: var(--weblink-color);
-      font-family: 'Questrial', sans-serif;
+      font-family: 'Montserrat', sans-serif;
 }
 
 #nav-right:hover{
       color: var(--weblink-color-hover);
-      font-family: 'Questrial', sans-serif;
+      font-family: 'Montserrat', sans-serif;
 }
 
 .nav-item{
@@ -101,18 +103,18 @@ svg{
 .name-title{
       padding-top:7%;
       color: var(--title-name-color);
-      font-family: 'Kalam', cursive;
+      font-family: 'Bebas Neue', cursive;
       font-size:4.5em;
 }
 
 h5{
-      font-family: 'Questrial', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       color: var(--primary-color);
       font-size: 1.5em;
 }
 
 .motto{
-      font-family: 'Questrial', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       color: var(--primary-color);
       font-size: 1em;
 }
@@ -131,15 +133,15 @@ h5{
 /**** work ****/
 
 .section-title{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 5% 0 1% 0;
     text-decoration: underline;
 }
 
 /** My process section **/
 .process-title{
-    color: var(--title-name-color);
-    font-family: 'Questrial', sans-serif;
+    color: var(--font-color);
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.9em;
 }
 
@@ -153,7 +155,7 @@ h5{
 
 .step-1:after {
     content: "1";
-    color: var(--title-name-color);
+    color: var(--main-steps-number);
     font-family: 'Bebas Neue', cursive;
     position: absolute;
     top: 0;
@@ -163,7 +165,7 @@ h5{
 
 .step-2:after {
     content: "2";
-    color: var(--title-name-color);
+    color: var(--main-steps-number);
     font-family: 'Bebas Neue', cursive;
     position: absolute;
     top: 0;
@@ -173,7 +175,7 @@ h5{
 
 .step-3:after {
     content: "3";
-    color: var(--title-name-color);
+    color: var(--main-steps-number);
     font-family: 'Bebas Neue', cursive;
     position: absolute;
     top: 0;
@@ -183,7 +185,7 @@ h5{
 
 .step-4:after {
     content: "4";
-    color: var(--title-name-color);
+    color: var(--main-steps-number);
     font-family: 'Bebas Neue', cursive;
     position: absolute;
     top: 0;
@@ -216,16 +218,16 @@ h5{
 }
 
 .card-title{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     color: var(--font-color);
 }
 
 .card-subtitle{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card-text{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--card-text);
 }
 
@@ -233,6 +235,7 @@ h5{
     border-color: var(--title-name-color);
     color: var(--title-name-color);
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn:hover{

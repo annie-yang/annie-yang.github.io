@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="727px" height="521px" viewBox="0 0 727 521" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>design3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="06-Create-Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-246.000000, -51.000000)">
+            <g id="design3" transform="translate(246.000000, 51.000000)">
+                <rect id="Rectangle" fill="#9B9B9B" fill-rule="nonzero" x="0" y="0" width="714" height="482"></rect>
+                <line x1="0" y1="35.5" x2="714" y2="35.5" id="Path" stroke="#F2F2F2" stroke-width="2"></line>
+                <circle id="Oval" fill="#CFCFCF" fill-rule="nonzero" cx="22" cy="18" r="9"></circle>
+                <circle id="Oval" fill="#CFCFCF" fill-rule="nonzero" cx="49" cy="18" r="9"></circle>
+                <circle id="Oval" fill="#CFCFCF" fill-rule="nonzero" cx="75" cy="19" r="9"></circle>
+                <rect id="Rectangle" fill="#F2F2F2" fill-rule="nonzero" opacity="0.3" x="45" y="68" width="602" height="117"></rect>
+                <line x1="45" y1="185" x2="647" y2="68" id="Path" stroke="#FFBFCB" stroke-width="2" opacity="0.3"></line>
+                <line x1="647" y1="185" x2="45" y2="68" id="Path" stroke="#FFBFCB" stroke-width="2" opacity="0.3"></line>
+                <rect id="Rectangle" fill="#F2F2F2" fill-rule="nonzero" opacity="0.3" x="45" y="260" width="144" height="189"></rect>
+                <rect id="Rectangle" fill="#F2F2F2" fill-rule="nonzero" opacity="0.3" x="503" y="260" width="144" height="189"></rect>
+                <rect id="Rectangle" fill="#F2F2F2" fill-rule="nonzero" opacity="0.3" x="274" y="260" width="144" height="189"></rect>
+                <line x1="45" y1="260" x2="189" y2="449" id="Path" stroke="#FFBFCB" stroke-width="2" opacity="0.3"></line>
+                <line x1="189" y1="260" x2="45" y2="449" id="Path" stroke="#FFBFCB" stroke-width="2" opacity="0.3"></line>
+                <line x1="274" y1="260" x2="418" y2="449" id="Path" stroke="#FFBFCB" stroke-width="2" opacity="0.3"></line>
+                <line x1="418" y1="260" x2="274" y2="449" id="Path" stroke="#FFBFCB" stroke-width="2" opacity="0.3"></line>
+                <line x1="503" y1="260" x2="647" y2="449" id="Path" stroke="#FFBFCB" stroke-width="2" opacity="0.3"></line>
+                <line x1="647" y1="260" x2="503" y2="449" id="Path" stroke="#FFBFCB" stroke-width="2" opacity="0.3"></line>
+                <rect id="Rectangle" fill="#D6CDFF" fill-rule="nonzero" x="125" y="68" width="602" height="117"></rect>
+                <rect id="Rectangle" fill="#F2F2F2" fill-rule="nonzero" x="531" y="305" width="144" height="189"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="552" y="330" width="102" height="12"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="552" y="355" width="102" height="12"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="552" y="380" width="102" height="12"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="552" y="406" width="102" height="12"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="552" y="431" width="102" height="12"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="552" y="457" width="102" height="12"></rect>
+                <rect id="Rectangle" fill="#F2F2F2" fill-rule="nonzero" x="80" y="285" width="144" height="189"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="101" y="348" width="102" height="12"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="101" y="374" width="102" height="12"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="101" y="399" width="102" height="12"></rect>
+                <path d="M455,137.195025 C455,159.286481 442.016878,167 426,167 C425.628956,167 425.258501,166.995828 424.888636,166.987484 C424.146535,166.971398 423.4115,166.935658 422.685311,166.885613 C408.23038,165.850836 397,157.74057 397,137.195025 C397,115.932833 423.862064,89.1035324 425.879845,87.1179565 L425.883383,87.1143874 C425.961147,87.0375392 426.000029,87 426.000029,87 C426.000029,87 455,115.103569 455,137.195025 Z" id="Path" fill="#B1F3B8" fill-rule="nonzero"></path>
+                <path d="M425.505562,163.632402 L435.975126,148.639137 L425.479396,165.278671 L425.451504,167 C424.718993,166.983912 423.993457,166.948167 423.276653,166.898113 L424.405077,144.7925 L424.396346,144.620893 L424.415536,144.588727 L424.521924,142.500965 L414,125.820306 L424.555036,140.935136 L424.579483,141.378429 L425.432305,124.676333 L416.424261,107.439765 L425.542185,121.74484 L426.429903,87.1180043 L426.433396,87 L426.433396,87.1144052 L426.285155,114.41977 L435.253112,103.59484 L426.248531,116.772147 L426.011346,131.726098 L434.384574,117.37452 L425.976469,133.926485 L425.843925,142.239988 L438,122.265032 L425.798532,145.141056 L425.505562,163.632402 Z" id="Path" fill="#D6CDFF" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#F2F2F2" fill-rule="nonzero" x="242" y="332" width="144" height="189"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="282" y="362" width="65" height="65"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="258" y="440" width="113" height="8"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="258" y="462" width="113" height="8"></rect>
+                <rect id="Rectangle" fill="#CFCFCF" fill-rule="nonzero" x="258" y="483" width="113" height="8"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

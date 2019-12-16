@@ -1,6 +1,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--font-color);
+    font-family: 'Montserrat', sans-serif;
 }
 
 /****************** DARK/LIGHT MODE ******************/
@@ -91,17 +92,17 @@ input:checked + .slider:before {
 
 .nav-link{
     color: var(--weblink-color);
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #nav-right{
     color: var(--weblink-color);
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #nav-right:hover{
     color: var(--weblink-color-hover);
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a.nav-link:hover{
@@ -145,7 +146,7 @@ svg{
 /**** heading ****/
 .project-title{
     color: var(--title-name-color);
-    font-family: 'Kalam', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 4em;
     padding: 3% 0% 0% 0%;
 }
@@ -159,7 +160,7 @@ svg{
 
 /**** work ****/
 .section-title{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 5% 0 1% 0;
     text-decoration: underline;
 }
@@ -168,6 +169,7 @@ svg{
     border-color: var(--title-name-color);
     color: var(--title-name-color);
     margin: 0 0 3% 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn:hover{
