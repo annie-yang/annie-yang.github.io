@@ -14,7 +14,7 @@ body {
      --card-color: white;
      --card-subtitle-color: #C8C8C8;
      --card-text: #A8A8A8;
-     --steps-number: #A8A8A8;
+    --steps-number: #E6E6E6;
      --main-steps-number: #D6CDFF;
 }
 
@@ -28,7 +28,7 @@ body {
      --card-color: #141414;
      --card-subtitle-color: #2cb67d;
      --card-text: #A8A8A8;
-     --steps-number: #A8A8A8;
+    --steps-number: #E6E6E6;
      --main-steps-number: #B1F3B8;
 }
 
