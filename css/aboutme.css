@@ -8,24 +8,22 @@ body {
 :root {
     --bg-color: #F5F5F5;
     --font-color: #424242;
-    --weblink-color: #735394;
-    --weblink-color-hover: #735394;
-    --title-name-color: #735394;
+    --weblink-color: #6246ea;
+    --weblink-color-hover: #6246ea;
+    --title-name-color: #6246ea;
     --card-color: white;
-    --card-subtitle-color: #DDDDDD;
-    --card-desc-color: #424242;
+    --card-subtitle-color: #C8C8C8;
 }
 
 [data-theme="dark"] {
     --bg-color: #202022;
     --font-color: #fff;
     --footer-color: #202022;
-    --weblink-color: #A5D1DE;
-    --weblink-color-hover: #A5D1DE;
-    --title-name-color: #A5D1DE;
+    --weblink-color: #2cb67d;
+    --weblink-color-hover: #2cb67d;
+    --title-name-color: #2cb67d;
     --card-color: #141414;
-    --card-subtitle-color: #A5D1DE;
-    --card-desc-color: #EFEFEF;
+    --card-subtitle-color: #2cb67d;
 }
 
 /*Simple css to style it like a toggle switch*/
