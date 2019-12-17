@@ -138,14 +138,14 @@ svg{
 /**** Heading ****/
 .project-title{
      color: var(--title-name-color);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 4em;
+     font-family: 'Bebas Neue', cursive;
+     font-size: 4em;
      padding: 3% 0% 0% 0%;
 }
 
 .collapse-text{
      color: var(--bg-color);
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Montserrat', sans-serif;
 }
 /**** END of heading ****/
 
@@ -216,10 +216,10 @@ svg{
 
 .subtitle{
      color: var( --subtitle-color);
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Montserrat', sans-serif;
 }
 
-.desc{
+.desc, ul, li{
     font-family: 'Montserrat', sans-serif;
 }
 
