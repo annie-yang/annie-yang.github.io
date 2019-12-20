@@ -303,10 +303,13 @@ footer{
     }
 
     .jpl-project-btn{
-        margin: 30% 0 0 0 !important;
+        margin: 46% 0 0 0 !important;
     }
     .puffy-btn{
         margin: 13% 0 0 0 !important;
+    }
+    .pl-s-project{
+        margin: 15% 0 0 0 !important;
     }
 }
 
