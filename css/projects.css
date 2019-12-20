@@ -292,9 +292,32 @@ footer{
     }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
      .navigation-img{
           height:100%;
           width:100%;
      }
+
+    .j-project-btn, .p-project-btn, .pl-project-btn, .s-project-btn{
+        margin: 30% 0 0 0 !important;
+    }
+
+    .jpl-project-btn{
+        margin: 30% 0 0 0 !important;
+    }
+    .puffy-btn{
+        margin: 13% 0 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (min-width: 1439px) {
+    .p-project-btn{
+        margin: 16% 0 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .p-project-btn, .pl-project-btn{
+        margin: 9% 0 0 0 !important;
+    }
 }
