@@ -2,6 +2,7 @@ body {
     background-color: var(--bg-color);
     color: var(--font-color);
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 /****************** DARK/LIGHT MODE ******************/
@@ -179,6 +180,26 @@ svg{
 }
 
 /**** END of work ****/
+
+.corgi-container {
+    position: relative;
+    height: 300px;
+}
+
+.corgi-walking {
+    position: absolute;
+    animation: walk 10s linear infinite;
+}
+
+@keyframes walk {
+    from {
+        right: -20%;
+    }
+    to {
+        right: 110%;
+    }
+}
+
 
 /****************** FOOTER ******************/
 footer{
