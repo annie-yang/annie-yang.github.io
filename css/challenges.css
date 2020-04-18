@@ -172,6 +172,11 @@ img.design{
     height:100%;
 }
 
+.design-watch{
+    width:95%;
+    height:100%;
+}
+
 .btn:hover{
     background-color: var(--title-name-color);
     border-color: var(--title-name-color);
