@@ -194,6 +194,11 @@ svg{
     color: var(--card-text);
 }
 
+.personas{
+    height:100%;
+    width:100%;
+}
+
 .view-more-title{
     padding: 5% 0 2% 0;
 }

@@ -139,8 +139,10 @@
                 <div class="col-sm">
                     <p style="padding: 5% 0 0 0;">
                         <b class="title">Company:</b> <span class="desc">Mr.NiceGuy's headquarter is based in California. They own multiple cannabis dispensaries and Puffy Delivery, a cannabis delivery service.</span><br/><br/>
+                        <b class="title">Product overview:</b> <span class="desc">Puffy Delivery Driver is an internal application dedicated to help drivers maintain an easier experience and increase work efficiency when doing deliveries.</span><br/><br/>
+                        <b class="title">The Problem overview:</b> <span class="desc">We have in-house delivery drivers that drop-off cannabis to our customers. The problem occurs when the drivers need to use multiple different apps to make payments, messaging system, and using an map app.</span><br/><br/>   
                         <b class="title">Goal:</b> <span class="desc">In order to <b><i>increase the efficiency of internal drivers</i></b>, our app will solve <b><i>driver's</i></b> problem of <b><i>multiple app usage</i></b> by giving them a <b><i>single consolidated app.</i></b> </span><br/><br/>
-                        <b class="title">Role:</b> <span class="desc">UX/UI Designer</span>
+                        <b class="title">Role:</b> <span class="desc">UX/UI Designer who worked closely with developers, QA, project manager, and stakeholders.</span>
                     </p>
                 </div>
             </div> <!-- END of company description row -->
@@ -153,7 +155,7 @@
                     </p>
 
                     <div class="collapse" id="collapseExample">
-                        <div class="card card-collapse"><p class="collapse-text">The goal was to increase the efficiency of internal drivers. We conducted field studies to gather data and concluded that having multiple apps decreased their efficiency to deliver products successfully. To solve that problem, we consolidated multiple apps into one.</p>
+                        <div class="card card-collapse"><p class="collapse-text">The goal was to increase the efficiency of internal drivers. We conducted field studies to gather data and concluded that having multiple apps decreased their efficiency to deliver products successfully, which each app having its own problem. To solve that problem, we consolidated multiple apps into one and maintained a problem-free app by constantly testing all use-cases.</p>
                         </div>
                     </div><br/><br/> <!-- END of accordion -->
                 </div>
@@ -163,38 +165,68 @@
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <h2 class="title">My UX Design Approach</h2>
                     <span class="subtitle"> 👞 Empathize </span><br/>
-                    <p class="desc"> We (the design team) needed to design an app for our internal drivers so that they can efficiently deliver products. We needed to understand our drivers, create personas, and go about brainstorming. We interviewed drivers and dispatchers and conducted field studies to get more information on their day-to-day tasks. Once we were able to see their process and understand what frustrates them, we were ready to brainstorm some ideas based on personas and data collected.
-                   </p>
-                </div>
-            </div><br/> <!-- END of approach row -->
-
-            <div class="row">
-                <div class="col-12 col-md-12">
-                    <span class="subtitle"> 😃 User Interview Background </span>
+                    <p class="desc"> We needed to design an app for our internal drivers so that they can efficiently deliver products. We interviewed drivers and dispatchers and conducted field studies to get more information on their day-to-day tasks. Some of my questions to the drivers/dispatchers were:</p>                   
                     <ul>
-                        <li>works as a Puffy driver</li>
-                        <li>male</li>
-                        <li>would like to discontinue using multiple apps</li>
-                        <li>age: around 20's</li>
-                        <li>would like to have payment system work</li>
-                        <li>communication is all on one messaging app, which is hard to keep track of due to multiple drivers and dispatchers in one group</li>
-                        <li>dislike needing to use a separate app for maps</li>
+                        <li>What are some problems you have when using these applications?</li>
+                        <li>Do you need to track every driver?</li>
+                        <li>Why is the messaging app so cluttered with messages?</li>
+                        <li>How often are products delivered on time?</li>
+                        <li>Can you take breaks enroute?</li>
                     </ul>
+                    <p class="desc">The main thing I gathered from my field studies and interviews were that majority of the the drivers use Google maps to map the destinations, but they would need to type in the address every time they need to go to a new destination, which can be too time-consuming entering the customer's information and double-checking to make sure it's correct address. And while enroute, their messaging system would get cluttered with messages from dispatchers and sometimes drivers don't see the message because it's cluttered. One example was when a dispatcher sent a message to the driver saying the customer wanted to delay the order, or change directions, but by that time, the driver was already enroute and didn't see the message because the driver was driving. Another problem was that once the driver has arrived at the destination, the payment system they use can take forever to load and constantly crash, so the wait time can average 10 minutes just to make a payment, this will then waste customer's time and delay other deliveries. </p>                     
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <span class="subtitle"><u>User Flow for current process (w/o internal application yet)</u></span>
+                            <p class="desc">I created a user flow to understand what the current process is like for our drivers to make deliveries.</p>
+                        </div>
+                    </div>
+
+                     <div class="row">
+                        <div class="col-12 col-md-6 col-sm-12">
+                            <img class="personas" src="images/puffy/flowchart.png" alt="">
+                        </div>            
+                    </div>    
                 </div>
-            </div><br/>
+            </div><br/><br/> <!-- END of approach row -->
 
             <div class="row"> <!-- start of define -->
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <span class="subtitle"> 💭 Define </span><br/>
-                    <p class="desc"> We discovered that their pain points were using 3 different apps (maps, communication, and payments) and needing to switch between apps, which decreases their efficiency. Every time they needed to find their destination, they would use a separate app, every time they needed to communicate with the dispatchers, they would use a separate app, every time they needed to collect payments, they would use a separate app...that's a lot of learning curve and apps running in the background. Due to the multiple apps running in the background, sometimes the apps would crash, therefore decreasing efficiency in time spent restarting the app and switching between apps.</p>
+                    <p class="desc"> Based on the interviews, I was able to construct personas and their pain points.</p>  
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-sm-12">
+                            <img class="personas" src="images/puffy/persona-1.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-md-6 col-sm-12">
+                            <img class="personas" src="images/puffy/persona-2.jpg" alt="">
+                        </div>
+                    </div><br/>
+                    
+                    <p class="desc">Now it's time to turn those pain points into solutions by using "How Might We". <i>How might we</i> notify drivers the important messages? <i>How might we</i> help find the best route for drivers? <i>How might we</i> make payments easier and not crash? <i>How might we</i> help increase driver's efficieny on delivery?</p><br/>
                 </div>
-            </div><br/> <!-- END of define row -->
+            </div> <!-- END of define row -->
 
             <div class="row"> <!-- start of ideate -->
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <span class="subtitle"> 📝 Ideate </span><br/>
-                    <p class="desc"> We brainstormed all the ideas together to see what possible solutions we could come up with. We looked into all 3 apps they used and tried to consolidate all 3 into one app, but without the unnecessary features. For example, the drivers can easily see all their deliveries in one go and instantly press "Start delivery" and it'll map their address for them instead of having them type the address, therefore increasing their work efficiency and decreasing typing errors. The drivers don't need to find coffee places or restaurants that come with the map apps, we're here to eliminate all the unnecessary noise. Once they start delivery, they're automatically tracked and dispatchers can see where the drivers are at instead of having drivers use another app to start their location.
+                    <p class="desc"> Once we were able to see their process and understand what frustrates them, we were ready to brainstorm some ideas based on personas and data collected. 
+                    We brainstormed all the ideas together to see what possible solutions we could come up with. We looked into all 3 apps they used and tried to consolidate all 3 into one app, but without the unnecessary features. For example, the drivers can easily see all their deliveries in one go and instantly press "Start delivery" and it'll map their address for them instead of having them type the address, therefore increasing their work efficiency and decreasing typing errors. One idea solution for payments was to have a built in paying method that doesn't crash with scanning ID cards to make sure the product is being delivered to the right person. Another idea solution for messaging was to filter out all the unnecessary messages that aren't important to the driver by only having a conversation that's between the assigned dispatched with the driver. We also made a quick tap to send message. (i.e. when a driver goes to the app to send message to driver, they can quickly tap "On my way ETA {time}" without needing to send the whole text.)
                     </p>
+                    
+                     <div class="row">
+                        <div class="col-12 col-md-6 col-sm-12">
+                            <img class="personas" src="images/puffy/lo-fi-1.png" alt="">
+                        </div>
+                        <div class="col-12 col-md-6 col-sm-12">
+                            <img class="personas" src="images/puffy/lo-fi-2.png" alt="">
+                        </div>
+                    </div><br/><br/>
+                    
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-sm-12">
+                            <img class="personas" src="images/puffy/lo-fi-3.png" alt="">
+                        </div>                       
+                    </div>
                 </div>
             </div><br/> <!-- END of ideate row -->
 
